@@ -19,38 +19,62 @@
   <meta name="ICBM" content="36.312186, 29.423495" />
 
   <link rel="stylesheet" href="bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Merienda|Niconne|Satisfy|Tangerine" rel="stylesheet">
 
   <title>Zeytin Dalı Restaurant</title>
 
   <style>
     html, body {
       height: 100%;
-      background-color: #87d299;
+      background-color: #f2f5f3;
+      font-family: 'Satisfy', cursive;
     }
 
     .container, .row.justify-content-center.align-items-center {
       height: 100%;
       min-height: 100%;
     }
+
+    h1, .h1 {
+      font-size: 3.5rem;
+      color: #0f424a !important;
+    }
+
+    .slogan {
+      font-size: 1.6em;
+      color: rgba(40, 167, 69, 0.75);
+    }
+
+    img {
+      -ms-border-radius: 10.5px;
+      border-radius: 10.5px;
+    }
+
+    /*
+    font-family: 'Merienda', cursive;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Niconne', cursive;
+        */
+
   </style>
 
 </head>
 <body>
 
-  <div class="container h-100">
-    <div class="row h-100 justify-content-center align-items-center">
-      <div class="col-md-12">
-        <h1 class="text-info">Welcome to <strong>Zeytin Dalı Restaurant</strong> Website</h1>
-        <p>
+  <div class="container">
 
-          <strong class="text-success"> New Restaurant in village, with its dynamic team, Ramazan Chef prepare tasty food with his 25 years of experience. </strong>
-
+    <div class="row">
+      <div class="text-center w-100">
+        <h1>Zeytin Dalı Restaurant</h1>
+        <p class="slogan">
+          New Restaurant in village, with its dynamic team, Ramazan Chef prepare tasty food with his 25 years of experience.
         </p>
-        <p> İslamlar Mahallesi 07960 Kaş/Antalya </p>
-        <p><strong> <a href="https://goo.gl/maps/54KfUsqF6WVb4Yx39" target="_system" title="Opens Google Maps">Yol Tarifi için tıklayınız / Click here for Directions</a></strong>  </p>
       </div>
-
-      <div class="col-md-12">
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col-md-4">
 
         <div itemscope itemtype="http://schema.org/LocalBusiness">
           Phone: <span itemprop="telephone">
@@ -63,8 +87,17 @@
         </div>
 
       </div>
-
+      <div class="col-md-4">
+        <p>
+          <a href="https://goo.gl/maps/54KfUsqF6WVb4Yx39" target="_system"
+             title="Opens Google Maps">Yol Tarifi için tıklayınız / Click here for Directions</a>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <p> İslamlar Mahallesi 07960 Kaş/Antalya </p>
+      </div>
     </div>
+
   </div>
 
 </body>
