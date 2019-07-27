@@ -1,10 +1,18 @@
 .baslik {
-  background-color:green;
-  color:white;
+  background-color: green;
+  color: white;
 }
 
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #28a745 !important;
+}
+
+.card-img-top {
+  max-width: 253px !important;
+  max-height: 204px !important;
+}
+
+.card {
+  max-width: 253px !important;
 }
