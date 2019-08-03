@@ -9,10 +9,11 @@
 }
 
 .card-img-top {
-  max-width: 253px !important;
-  max-height: 204px !important;
+  max-width: 348px !important;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .card {
-  max-width: 253px !important;
+  max-width: 348px !important;
 }

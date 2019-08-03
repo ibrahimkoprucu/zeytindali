@@ -57,966 +57,969 @@
   </nav>
 
   <div class="container h-100">
-    <div class="row h-100 justify-content-center align-items-center">
-      <div class="col-md-3">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <div class="col-md-12 border pt-3 pb-3 mt-3 mb-3">
+      <div class="nav nav-pills" id="pills-tab" role="tablist" aria-orientation="horizontal">
 
-          <a class="nav-link active" id="breakfast-tab" data-toggle="pill" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Kahvaltı</a>
-          <a class="nav-link" id="omlettes-tab" data-toggle="pill" href="#omlettes" role="tab" aria-controls="omlettes" aria-selected="false">Omletler</a>
-          <a class="nav-link" id="cold-starters-tab" data-toggle="pill" href="#cold-starters" role="tab" aria-controls="cold-starters" aria-selected="false">Soğuk Başlangıçlar</a>
+        <a class="m-1 btn btn-outline-success nav-link active" id="breakfast-tab" data-toggle="pill" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Kahvaltı</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="omlettes-tab" data-toggle="pill" href="#omlettes" role="tab" aria-controls="omlettes" aria-selected="false">Omletler</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="cold-starters-tab" data-toggle="pill" href="#cold-starters" role="tab" aria-controls="cold-starters" aria-selected="false">Soğuk Başlangıçlar</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="hot-starters-tab" data-toggle="pill" href="#hot-starters" role="tab" aria-controls="hot-starters" aria-selected="false">Sıcak Başlangıçlar</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="salads-tab" data-toggle="pill" href="#salads" role="tab" aria-controls="salads" aria-selected="false">Salatalar</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="snacks-tab" data-toggle="pill" href="#snacks" role="tab" aria-controls="snacks" aria-selected="false">Atıştırmalıklar</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="pastas-tab" data-toggle="pill" href="#pastas" role="tab" aria-controls="pastas" aria-selected="false">Makarnalar</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="m-courses-I-tab" data-toggle="pill" href="#m-courses-I" role="tab" aria-controls="m-courses-I" aria-selected="false">Ana Yemekler-I</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="m-courses-II-tab" data-toggle="pill" href="#m-courses-II" role="tab" aria-controls="m-courses-II" aria-selected="false">Ana Yemekler-II</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="grills-tab" data-toggle="pill" href="#grills" role="tab" aria-controls="grills" aria-selected="false">Izgaralar</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="kids-menu-tab" data-toggle="pill" href="#kids-menu" role="tab" aria-controls="kids-menu" aria-selected="false">Çocuk Menusu</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="desserts-tab" data-toggle="pill" href="#desserts" role="tab" aria-controls="desserts" aria-selected="false">Tatlılar</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="nonalcoholic-drinks-tab" data-toggle="pill" href="#nonalcoholic-drinks" role="tab" aria-controls="nonalcoholic-drinks" aria-selected="false">Alkolsüz İçecekler</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="nonalcoholic-coctails-tab" data-toggle="pill" href="#nonalcoholic-coctails" role="tab" aria-controls="nonalcoholic-coctails" aria-selected="false">Alkolsüz Kokteyler</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="alcoholic-drinks-tab" data-toggle="pill" href="#alcoholic-drinks" role="tab" aria-controls="alcoholic-drinks" aria-selected="false">Alkollü İçecekler</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="alcoholic-coctails-tab" data-toggle="pill" href="#alcoholic-coctails" role="tab" aria-controls="alcoholic-coctails" aria-selected="false">Alkollü Kokteyler</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="wines-tab" data-toggle="pill" href="#wines" role="tab" aria-controls="wines" aria-selected="false">Şaraplar</a>
+        <a class="m-1 btn btn-outline-success nav-link" id="fish-day-tab" data-toggle="pill" href="#fish-day" role="tab" aria-controls="fish-day" aria-selected="false">Günün Balıkları</a>
 
-          <!-- todo: uygun şekilde değiştirilecek || her biri için aşağıdaki gibi bir div açılacak -->
-          <a class="nav-link" id="hot-starters-tab" data-toggle="pill" href="#hot-starters" role="tab" aria-controls="hot-starters" aria-selected="false">Sıcak Başlangıçlar</a>
-          <a class="nav-link" id="salads-tab" data-toggle="pill" href="#salads" role="tab" aria-controls="salads" aria-selected="false">Salatalar</a>
-          <a class="nav-link" id="snacks-tab" data-toggle="pill" href="#snacks" role="tab" aria-controls="snacks" aria-selected="false">Atıştırmalıklar</a>
-          <a class="nav-link" id="pastas-tab" data-toggle="pill" href="#pastas" role="tab" aria-controls="pastas" aria-selected="false">Makarnalar</a>
-          <a class="nav-link" id="m-courses-I-tab" data-toggle="pill" href="#m-courses-I" role="tab" aria-controls="m-courses-I" aria-selected="false">Ana Yemekler-I</a>
-          <a class="nav-link" id="m-courses-II-tab" data-toggle="pill" href="#m-courses-II" role="tab" aria-controls="m-courses-II" aria-selected="false">Ana Yemekler-II</a>
-          <a class="nav-link" id="grills-tab" data-toggle="pill" href="#grills" role="tab" aria-controls="grills" aria-selected="false">Izgaralar</a>
-          <a class="nav-link" id="kids-menu-tab" data-toggle="pill" href="#kids-menu" role="tab" aria-controls="kids-menu" aria-selected="false">Çocuk Menusu</a>
-          <a class="nav-link" id="desserts-tab" data-toggle="pill" href="#desserts" role="tab" aria-controls="desserts" aria-selected="false">Tatlılar</a>
-          <a class="nav-link" id="nonalcoholic-drinks-tab" data-toggle="pill" href="#nonalcoholic-drinks" role="tab" aria-controls="nonalcoholic-drinks" aria-selected="false">Alkolsüz İçecekler</a>
-          <a class="nav-link" id="nonalcoholic-coctails-tab" data-toggle="pill" href="#nonalcoholic-coctails" role="tab" aria-controls="nonalcoholic-coctails" aria-selected="false">Alkolsüz Kokteyler</a>
-          <a class="nav-link" id="alcoholic-drinks-tab" data-toggle="pill" href="#alcoholic-drinks" role="tab" aria-controls="alcoholic-drinks" aria-selected="false">Alkollü İçecekler</a>
-          <a class="nav-link" id="alcoholic-coctails-tab" data-toggle="pill" href="#alcoholic-coctails" role="tab" aria-controls="alcoholic-coctails" aria-selected="false">Alkollü Kokteyler</a>
-          <a class="nav-link" id="wines-tab" data-toggle="pill" href="#wines" role="tab" aria-controls="wines" aria-selected="false">Şaraplar</a>
-          <a class="nav-link" id="fish-day-tab" data-toggle="pill" href="#fish-day" role="tab" aria-controls="fish-day" aria-selected="false">Günün Balıkları</a>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="tab-content" id="pills-tabContent">
+
+        <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+
+          <div class="card-deck">
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Spread Village Breakfast(Spread into table in plates)</h5>
+                <p class="card-text">Tomato,cucumber,chadder cheese,feta cheese,plaited cheese,fig jam,cherry jam,apricot jam,...(whichever avaiable),honey,butter</p>
+                <p class="card-text">Hot ones:Fried goat cheese,fried egg</p>
+                <p class="card-text"><small class="text-muted">40 ₺</small></p>
+              </div>
+            </div>
+
+
+          </div>
 
         </div>
-      </div>
-      <div class="col-md-9">
-        <div class="tab-content" id="v-pills-tabContent">
 
-          <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+        <div class="tab-pane fade" id="omlettes" role="tabpanel" aria-labelledby="omlettes-tab">
+          <div class="card-deck">
 
-            <div class="card-deck">
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Spread Village Breakfast(Spread into table in plates)</h5>
-                  <p class="card-text">Tomato,cucumber,chadder cheese,feta cheese,plaited cheese,fig jam,cherry jam,apricot jam,...(whichever avaiable),honey,butter</p>
-                  <p class="card-text">Hot ones:Fried goat cheese,fried egg</p>
-                  <p class="card-text"><small class="text-muted">40 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/Omelettes/plain-omelette.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Plain Omelette</h5>
+                <p class="card-text">Garnish with tomato,cucumber and parsley</p>
+                <p class="card-text"><small class="text-muted">19 ₺</small></p>
               </div>
+            </div>
+            <div class="card mb-3">
+              <img src="../img/menu/Omelettes/mushroom-omelette.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushroom Omelette</h5>
+                <p class="card-text">Garnish with tomato,cucumber and parsley<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Yellow Cheese Omelette</h5>
+                <p class="card-text">Garnish with tomato,cucumber and parsley</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+          </div>
 
+          <div class="card-deck">
 
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Mixed Omelette</h5>
+                <p class="card-text">Garnish with tomato,cucumber and parsley</p>
+                <p class="card-text"><small class="text-muted">23 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Menemen</h5>
+                <p class="card-text">Scrambled egg ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
+              </div>
             </div>
 
           </div>
 
-          <div class="tab-pane fade" id="omlettes" role="tabpanel" aria-labelledby="omlettes-tab">
-            <div class="card-deck">
+        </div>
 
-              <div class="card mb-3">
-                <img src="../img/menu/Omelettes/plain-omelette.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Plain Omelette</h5>
-                  <p class="card-text">Garnish with tomato,cucumber and parsley</p>
-                  <p class="card-text"><small class="text-muted">19 ₺</small></p>
-                </div>
-              </div>
-              <div class="card mb-3">
-                <img src="../img/menu/Omelettes/mushroom-omelette.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushroom Omelette</h5>
-                  <p class="card-text">Garnish with tomato,cucumber and parsley<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Yellow Cheese Omelette</h5>
-                  <p class="card-text">Garnish with tomato,cucumber and parsley</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
+        <div class="tab-pane fade" id="cold-starters" role="tabpanel" aria-labelledby="cold-starters-tab">
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Hot Spicy Tomato Dip</h5>
+                <p class="card-text">Acılı Ezme Tarifi ...</p>
+                <p class="card-text"><small class="text-muted">17 ₺</small></p>
               </div>
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Mixed Omelette</h5>
-                  <p class="card-text">Garnish with tomato,cucumber and parsley</p>
-                  <p class="card-text"><small class="text-muted">23 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Courgette Fritters</h5>
+                <p class="card-text">Mücver Açıklama ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
               </div>
+            </div>
 
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Menemen</h5>
-                  <p class="card-text">Scrambled egg ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Houmous</h5>
+                <p class="card-text">Humus Açıklama ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
               </div>
-
             </div>
 
           </div>
 
-          <div class="tab-pane fade" id="cold-starters" role="tabpanel" aria-labelledby="cold-starters-tab">
+          <div class="card-deck">
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Hot Spicy Tomato Dip</h5>
-                  <p class="card-text">Acılı Ezme Tarifi ...</p>
-                  <p class="card-text"><small class="text-muted">17 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Baked Aubergine Puree</h5>
+                <p class="card-text">Patlıcan Söğürme Açıklama...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Courgette Fritters</h5>
-                  <p class="card-text">Mücver Açıklama ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Houmous</h5>
-                  <p class="card-text">Humus Açıklama ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Baked Aubergine Puree</h5>
-                  <p class="card-text">Patlıcan Söğürme Açıklama...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Stuffed Vineleaves</h5>
+                <p class="card-text">Yaprak Sarma Açıklama ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Stuffed Vineleaves</h5>
-                  <p class="card-text">Yaprak Sarma Açıklama ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Haydari</h5>
-                  <p class="card-text">Thick Yogurt with mint...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Cacık</h5>
-                  <p class="card-text">Garlic yogurt with ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Haydari</h5>
+                <p class="card-text">Thick Yogurt with mint...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Carrot Tarator</h5>
-                  <p class="card-text">Grated Carrot with garlic and yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Mixed Meze Plate</h5>
-                  <p class="card-text">Karışık Meze Açıklama ...</p>
-                  <p class="card-text"><small class="text-muted">55 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
           </div>
 
-          <div class="tab-pane fade" id="hot-starters" role="tabpanel" aria-labelledby="hot-starters-tab">
-            <div class="card-deck">
+          <div class="card-deck">
 
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Shrimps in garlic</h5>
-                  <p class="card-text">Shrimps cooked in a pan with garlic,butter and chili flakes...</p>
-                  <p class="card-text"><small class="text-muted">42 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Cacık</h5>
+                <p class="card-text">Garlic yogurt with ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Calamari</h5>
-                  <p class="card-text">Marinated squid rings fried and served with special sauce(8 rings in a portion) ...</p>
-                  <p class="card-text"><small class="text-muted">42 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Trout Fish Cakes</h5>
-                  <p class="card-text">Boneless trout knead with herbs and spices shaped like meatball fried and served ...</p>
-                  <p class="card-text"><small class="text-muted">24 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Carrot Tarator</h5>
+                <p class="card-text">Grated Carrot with garlic and yogurt ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image for this food...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Cheese Rolls</h5>
-                  <p class="card-text">flat bread rolled with mixture of cheese and parsley and fried ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Goat Cheese</h5>
-                  <p class="card-text">Famous village cheese fried in a pan with butter spiced with chili flakes and oregano and served in the pan ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Mixed Meze Plate</h5>
+                <p class="card-text">Karışık Meze Açıklama ...</p>
+                <p class="card-text"><small class="text-muted">55 ₺</small></p>
               </div>
-
-
             </div>
+
           </div>
+
+        </div>
+
+        <div class="tab-pane fade" id="hot-starters" role="tabpanel" aria-labelledby="hot-starters-tab">
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Shrimps in garlic</h5>
+                <p class="card-text">Shrimps cooked in a pan with garlic,butter and chili flakes...</p>
+                <p class="card-text"><small class="text-muted">42 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Calamari</h5>
+                <p class="card-text">Marinated squid rings fried and served with special sauce(8 rings in a portion) ...</p>
+                <p class="card-text"><small class="text-muted">42 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Trout Fish Cakes</h5>
+                <p class="card-text">Boneless trout knead with herbs and spices shaped like meatball fried and served ...</p>
+                <p class="card-text"><small class="text-muted">24 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image for this food...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cheese Rolls</h5>
+                <p class="card-text">flat bread rolled with mixture of cheese and parsley and fried ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Goat Cheese</h5>
+                <p class="card-text">Famous village cheese fried in a pan with butter spiced with chili flakes and oregano and served in the pan ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
+              </div>
+            </div>
+
+
+          </div>
+<<<<<<< HEAD
 
 
           <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads-tab">
             <p><i>All Salads olive oiled before served</i></p>
+=======
+        </div>
+        <p><i>All Salads olive oiled before served</i></p>
 
-            <div class="card-deck">
+        <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads-tab">
+>>>>>>> 31f54095611e4dbe2fedad8ea319d6467239febc
+
+          <div class="card-deck">
 
 
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Shepherd Salad</h5>
-                  <p class="card-text">Tomato,pepper,cucumber,onion-olive oiled before served...</p>
-                  <p class="card-text"><small class="text-muted">16 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Shepherd Salad</h5>
+                <p class="card-text">Tomato,pepper,cucumber,onion-olive oiled before served...</p>
+                <p class="card-text"><small class="text-muted">16 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Green Salad</h5>
-                  <p class="card-text">Lettuce,rocket,parsley,...</p>
-                  <p class="card-text"><small class="text-muted">16 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Feta Cheese Salad</h5>
-                  <p class="card-text">Feta cheese on the top...</p>
-                  <p class="card-text"><small class="text-muted">19 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Tuna Fish Salad</h5>
-                  <p class="card-text">Tuna fish on the salad...</p>
-                  <p class="card-text"><small class="text-muted">23 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Green Salad</h5>
+                <p class="card-text">Lettuce,rocket,parsley,...</p>
+                <p class="card-text"><small class="text-muted">16 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Rocket Salad</h5>
-                  <p class="card-text">Finely Chopped Rocket and Tomato ...</p>
-                  <p class="card-text"><small class="text-muted">16 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Walnut and Raisins Salad</h5>
-                  <p class="card-text">Salad with walnut and raisins ...</p>
-                  <p class="card-text"><small class="text-muted">21 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Avacado Salad</h5>
-                  <p class="card-text">Salad with avacado...</p>
-                  <p class="card-text"><small class="text-muted">23 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Feta Cheese Salad</h5>
+                <p class="card-text">Feta cheese on the top...</p>
+                <p class="card-text"><small class="text-muted">19 ₺</small></p>
               </div>
-
-
-            </div>
-          </div>
-
-          <div class="tab-pane fade" id="snacks" role="tabpanel" aria-labelledby="snacks-tab">
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Homemade Chips</h5>
-                  <p class="card-text">Best patatoes found peeled and deep fried in fresh oil...</p>
-                  <p class="card-text"><small class="text-muted">17 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Double Homemade Chips</h5>
-                  <p class="card-text">Double amount of Homemade Chips served in a big platter ...</p>
-                  <p class="card-text"><small class="text-muted">30 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Hamburger</h5>
-                  <p class="card-text">Contains homemade hamburger patty and tomato,lettuce,pickled cucumber inside...</p>
-                  <p class="card-text"><small class="text-muted">21 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">CheeseBurger</h5>
-                  <p class="card-text">Same Burger up with cheddar cheese ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Chicken Wrap</h5>
-                  <p class="card-text">Sauted chicken breast wrapped...</p>
-                  <p class="card-text"><small class="text-muted">27 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fish and Chips</h5>
-                  <p class="card-text">Battered Haddock fish served with homemade chips...</p>
-                  <p class="card-text"><small class="text-muted">23 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-
-          </div>
-
-          <div class="tab-pane fade" id="pastas" role="tabpanel" aria-labelledby="pastas-tab">
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Penne Alfredo</h5>
-                  <p class="card-text">Penne with chicken,mushroom,cream...</p>
-                  <p class="card-text"><small class="text-muted">27 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Penne Napolitano</h5>
-                  <p class="card-text">Penne with tomato sauce ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Penne Bolognaise</h5>
-                  <p class="card-text">Penne with minced meat ...</p>
-                  <p class="card-text"><small class="text-muted">24 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mantı</h5>
-                  <p class="card-text">Turkish pasta bundles filled with minced meat boiled and served with garlic yogurt and sauce including chili flake and butter on the top(chili flakes sauted in butter in a pan)...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
           </div>
 
-          <div class="tab-pane fade" id="m-courses-I" role="tabpanel" aria-labelledby="m-courses-I-tab">
+          <div class="card-deck">
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fillet Battered trout(with egg and flour) and fried</h5>
-                  <p class="card-text">Served with salad garnish on the side(sliced tomato,cucumber,onion,rocket,fried whole green pepper)...</p>
-                  <p class="card-text"><small class="text-muted">28 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Tuna Fish Salad</h5>
+                <p class="card-text">Tuna fish on the salad...</p>
+                <p class="card-text"><small class="text-muted">23 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Oven Baked Trout </h5>
-                  <p class="card-text">Whole trout(with bones ask for fillet) in clay dish with tomato,pepper,patato,garlic and butter cooked in the oven(served very hot keep its heat for quite a while) ...</p>
-                  <p class="card-text"><small class="text-muted">34 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">In A Clay Dish Cheddar Trout</h5>
-                  <p class="card-text">Fillet trout(no bones,keep tail and head ask for tailless and headless) in a clay dish cooked in the oven   ...</p>
-                  <p class="card-text"><small class="text-muted">36 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Trout</h5>
-                  <p class="card-text">Trout fried in olive oil and butter served with salad garnish and fried pepper on the side(ask for fillet before cooked or afterwards) ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Rocket Salad</h5>
+                <p class="card-text">Finely Chopped Rocket and Tomato ...</p>
+                <p class="card-text"><small class="text-muted">16 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Grilled Trout</h5>
-                  <p class="card-text">Trout grilled(barbequed over coal fire) served with salad garnish and fried pepper on the side(ask for fillet before cooked or afterwards) ...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Grilled Sea Bass</h5>
-                  <p class="card-text">Sea Bass grilled(barbequed over coal fire) served with salad garnish and fried pepper on the side(350-400 gr for one person-bigger than trout)...</p>
-                  <p class="card-text"><small class="text-muted">44 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Grillled Sea Bream</h5>
-                  <p class="card-text">Sea Bream grilled(barbequed over coal fire) served with salad garnish and fried pepper on the side(350-400 gr for one person-bigger than trout)...</p>
-                  <p class="card-text"><small class="text-muted">45 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Walnut and Raisins Salad</h5>
+                <p class="card-text">Salad with walnut and raisins ...</p>
+                <p class="card-text"><small class="text-muted">21 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fillet Flounder Fish</h5>
-                  <p class="card-text">Suprise ...</p>
-                  <p class="card-text"><small class="text-muted">42 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fish on Skewers</h5>
-                  <p class="card-text">Fillet sword fish or leer fish or haddock skewered and grilled(barbequed over coal fire) served with salad garnish and fried pepper on the side ...</p>
-                  <p class="card-text"><small class="text-muted">24 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fish of The Day</h5>
-                  <p class="card-text">Please click on fish of the day menu item ...</p>
-                  <p class="card-text"><small class="text-muted">? ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mixed Seafood Casserolle</h5>
-                  <p class="card-text">In a clay dish calamari,shrimps,haddock fish and mussels and some seasoning and herbs cooked in the oven and chadder cheese on the top(served with no side dish) ...</p>
-                  <p class="card-text"><small class="text-muted">53 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
           </div>
 
-          <div class="tab-pane fade" id="m-courses-II" role="tabpanel" aria-labelledby="m-courses-II-tab">
-            <div class="card-deck">
+          <div class="card-deck">
 
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Local Casserolle with Vegatable and Meat(beef and lamb)</h5>
-                  <p class="card-text">Cooked in the oven with mushrooms,pepper,tomato,onion,garlic,aubergine etc served in clay dish...</p>
-                  <p class="card-text"><small class="text-muted">52 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Avacado Salad</h5>
+                <p class="card-text">Salad with avacado...</p>
+                <p class="card-text"><small class="text-muted">23 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Aubergine Mousakka</h5>
-                  <p class="card-text">Not Today ...</p>
-                  <p class="card-text"><small class="text-muted">- ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Sizzling Lamb</h5>
-                  <p class="card-text">Finely chopped lamb cooked in the pan with onion,pepper,tomato,oregano,chili flakes served in iron plate with fire underneath and served rice as a side dish ...</p>
-                  <p class="card-text"><small class="text-muted">52 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
 
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Sizzling Chicken</h5>
-                  <p class="card-text">Finely chopped chicken cooked in the pan with onion,pepper,tomato,oregano,chili flakes served in iron plate with fire underneath and served rice as a side dish ...</p>
-                  <p class="card-text"><small class="text-muted">37 ₺</small></p>
-                </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="snacks" role="tabpanel" aria-labelledby="snacks-tab">
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Homemade Chips</h5>
+                <p class="card-text">Best patatoes found peeled and deep fried in fresh oil...</p>
+                <p class="card-text"><small class="text-muted">17 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special Çardak Kebab</h5>
-                  <p class="card-text">Cubed lamb cooked in stew pan with onion,garlic,tomato,green pepper,mushrooms,some water;spread bechamel sauce on a crepe after that the mixture wrapped in this crepe added chadder cheese on the top cooked in the oven in a clay dish...</p>
-                  <p class="card-text"><small class="text-muted">54 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Sizzling Liver</h5>
-                  <p class="card-text">Finely chopped liver(lamb liver) in the pan with onion,pepper,tomato,oregano,chili flakes served in iron plate with fire underneath and served rice as a side dish...</p>
-                  <p class="card-text"><small class="text-muted">38 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Chicken Curry</h5>
-                  <p class="card-text">Chicken cooked in a pan with cream and curry sauce ...</p>
-                  <p class="card-text"><small class="text-muted">41 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Double Homemade Chips</h5>
+                <p class="card-text">Double amount of Homemade Chips served in a big platter ...</p>
+                <p class="card-text"><small class="text-muted">30 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Karnıyarık(Riven Belly)</h5>
-                  <p class="card-text">Split aubergines stuffed with minced meat and cooked in the oven in a clay dish served with rice as a side dish ...</p>
-                  <p class="card-text"><small class="text-muted">35 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Chicken Schnitzel</h5>
-                  <p class="card-text">Chickhen Schnitzel with chips  ...</p>
-                  <p class="card-text"><small class="text-muted">35 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Lamb Tandour(hole in the earth with wood fire-tandour oven) </h5>
-                  <p class="card-text">Lamb roasted in tandour oven served in a clay dish and rice as side dish(may include bay leaf and onion to flavour) ...</p>
-                  <p class="card-text"><small class="text-muted">52 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Hamburger</h5>
+                <p class="card-text">Contains homemade hamburger patty and tomato,lettuce,pickled cucumber inside...</p>
+                <p class="card-text"><small class="text-muted">21 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Lamb Shank</h5>
-                  <p class="card-text">Lamb Shank(lamb contains a big bone) served such as lamb tandour(the item above) ...</p>
-                  <p class="card-text"><small class="text-muted">52 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Village Style Meatballs</h5>
-                  <p class="card-text">Homemade meatballs grilled served with fire roasted aubergine,grilled lavash bread,garlic yogurt,butter,rice , roasted tomato,pepper,onion etc spiced with oregano ...</p>
-                  <p class="card-text"><small class="text-muted">40 ₺</small></p>
-                </div>
-              </div>
-
             </div>
+
           </div>
 
-          <div class="tab-pane fade" id="grills" role="tabpanel" aria-labelledby="grills-tab">
-            <div class="card-deck">
+          <div class="card-deck">
 
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Grilled Meatballs</h5>
-                  <p class="card-text">Homemade meatballs grilled served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">CheeseBurger</h5>
+                <p class="card-text">Same Burger up with cheddar cheese ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Roasted meatballs in a clay dish</h5>
-                  <p class="card-text">Meatballs in a clay dish chadder cheese topped and cooked in the oven...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Hot Chili Kebab</h5>
-                  <p class="card-text">Mixture of minced beef and minced lamb(%70 beef %30 lamb) and a little tail fat and chili flakes and salt put on wooden skewer and barbequed on charcoal fire ,similar to Adana Kebab...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Aubergine Kebab</h5>
-                  <p class="card-text">Slice of aubergine and meatballs lined up and barbequed and served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chicken Wrap</h5>
+                <p class="card-text">Sauted chicken breast wrapped...</p>
+                <p class="card-text"><small class="text-muted">27 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Lamb Chops</h5>
-                  <p class="card-text">lamb chops barbequed and served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
-                  <p class="card-text"><small class="text-muted">53 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Chicken on the Skewers</h5>
-                  <p class="card-text">Chicken on the skewers(3 skewers of chicken-used marinated chicken breast) barbequed and served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
-                  <p class="card-text"><small class="text-muted">35 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mix Grill Plate</h5>
-                  <p class="card-text"> 1 Lamb chops,2 meatballs,1 skewer of chicken and one small steak served with rice ,fire roasted pepper,onion,tomato  ...</p>
-                  <p class="card-text"><small class="text-muted">58 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fish and Chips</h5>
+                <p class="card-text">Battered Haddock fish served with homemade chips...</p>
+                <p class="card-text"><small class="text-muted">23 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Chicken Chops</h5>
-                  <p class="card-text">Chicken Chops served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
-                  <p class="card-text"><small class="text-muted">35 ₺</small></p>
-                </div>
-              </div>
-
             </div>
+
           </div>
 
-          <div class="tab-pane fade" id="kids-menu" role="tabpanel" aria-labelledby="kids-menu-tab">
-            <div class="card-deck">
 
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Small Meatballs</h5>
-                  <p class="card-text">Meatballs put on wooden sticks(2 sticks of meatballs) and grilled served with chips on the side</p>
-                  <p class="card-text"><small class="text-muted">24 ₺</small></p>
-                </div>
+        </div>
+
+        <div class="tab-pane fade" id="pastas" role="tabpanel" aria-labelledby="pastas-tab">
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Penne Alfredo</h5>
+                <p class="card-text">Penne with chicken,mushroom,cream...</p>
+                <p class="card-text"><small class="text-muted">27 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Chicken Fingers</h5>
-                  <p class="card-text">Chicken Fingers and Chips ...</p>
-                  <p class="card-text"><small class="text-muted">24 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fish Fingers</h5>
-                  <p class="card-text">Fish Fingers and Chips ...</p>
-                  <p class="card-text"><small class="text-muted">24 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Sausage and Chips</h5>
-                  <p class="card-text">...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Penne Napolitano</h5>
+                <p class="card-text">Penne with tomato sauce ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Chicken on the skewers and chips</h5>
-                  <p class="card-text">2 sticks of chickhen served with chips on the side ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Tuna Fish Sandwich and Chips</h5>
-                  <p class="card-text">...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
             </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Penne Bolognaise</h5>
+                <p class="card-text">Penne with minced meat ...</p>
+                <p class="card-text"><small class="text-muted">24 ₺</small></p>
+              </div>
+            </div>
+
           </div>
 
-          <div class="tab-pane fade" id="desserts" role="tabpanel" aria-labelledby="desserts-tab">
-            <div class="card-deck">
-              <<em>All desserts served with ice-cream on the side </em>
+          <div class="card-deck">
 
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Banana Crepe</h5>
-                  <p class="card-text">...</p>
-                  <p class="card-text"><small class="text-muted">20 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mantı</h5>
+                <p class="card-text">Turkish pasta bundles filled with minced meat boiled and served with garlic yogurt and sauce including chili flake and butter on the top(chili flakes sauted in butter in a pan)...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Honey and Walnut Crepe</h5>
-                  <p class="card-text">...</p>
-                  <p class="card-text"><small class="text-muted">30 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title"></h5>
-                  <p class="card-text">Lemon and Sugar Crepe...</p>
-                  <p class="card-text"><small class="text-muted">19 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
+          </div>
 
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Chocolate Crepe</h5>
-                  <p class="card-text"> ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
+        </div>
+
+        <div class="tab-pane fade" id="m-courses-I" role="tabpanel" aria-labelledby="m-courses-I-tab">
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fillet Battered trout(with egg and flour) and fried</h5>
+                <p class="card-text">Served with salad garnish on the side(sliced tomato,cucumber,onion,rocket,fried whole green pepper)...</p>
+                <p class="card-text"><small class="text-muted">28 ₺</small></p>
               </div>
-
-
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Banana</h5>
-                  <p class="card-text">Fried in Butter and served with honey and ice-cream...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Baklava</h5>
-                  <p class="card-text">...</p>
-                  <p class="card-text"><small class="text-muted">19 ₺</small></p>
-                </div>
-              </div>
-
-
-
-
             </div>
 
-            <div class="card-deck">
-
-
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Baked Halva(Helva)</h5>
-                  <p class="card-text">Tahini(which is made of sesame seeds) Halva put in little clay bowl ,some milk added,cooked in the oven,topped with walnut and ice-cream respectively and served...</p>
-                  <p class="card-text">Eating Tahini Halva after eating fish as a main course is a tradition  in Turkey;in this village is it served in this special style...</p>
-                  <p class="card-text"><small class="text-muted">19 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Oven Baked Trout </h5>
+                <p class="card-text">Whole trout(with bones ask for fillet) in clay dish with tomato,pepper,patato,garlic and butter cooked in the oven(served very hot keep its heat for quite a while) ...</p>
+                <p class="card-text"><small class="text-muted">34 ₺</small></p>
               </div>
+            </div>
 
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Yogurt with Honey</h5>
-                  <p class="card-text"> ...</p>
-                  <p class="card-text"><small class="text-muted">16 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">In A Clay Dish Cheddar Trout</h5>
+                <p class="card-text">Fillet trout(no bones,keep tail and head ask for tailless and headless) in a clay dish cooked in the oven   ...</p>
+                <p class="card-text"><small class="text-muted">36 ₺</small></p>
               </div>
+            </div>
 
-              <div class="card mb-3">
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Trout</h5>
+                <p class="card-text">Trout fried in olive oil and butter served with salad garnish and fried pepper on the side(ask for fillet before cooked or afterwards) ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Grilled Trout</h5>
+                <p class="card-text">Trout grilled(barbequed over coal fire) served with salad garnish and fried pepper on the side(ask for fillet before cooked or afterwards) ...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Grilled Sea Bass</h5>
+                <p class="card-text">Sea Bass grilled(barbequed over coal fire) served with salad garnish and fried pepper on the side(350-400 gr for one person-bigger than trout)...</p>
+                <p class="card-text"><small class="text-muted">44 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Grillled Sea Bream</h5>
+                <p class="card-text">Sea Bream grilled(barbequed over coal fire) served with salad garnish and fried pepper on the side(350-400 gr for one person-bigger than trout)...</p>
+                <p class="card-text"><small class="text-muted">45 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fillet Flounder Fish</h5>
+                <p class="card-text">Suprise ...</p>
+                <p class="card-text"><small class="text-muted">42 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fish on Skewers</h5>
+                <p class="card-text">Fillet sword fish or leer fish or haddock skewered and grilled(barbequed over coal fire) served with salad garnish and fried pepper on the side ...</p>
+                <p class="card-text"><small class="text-muted">24 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fish of The Day</h5>
+                <p class="card-text">Please click on fish of the day menu item ...</p>
+                <p class="card-text"><small class="text-muted">? ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mixed Seafood Casserolle</h5>
+                <p class="card-text">In a clay dish calamari,shrimps,haddock fish and mussels and some seasoning and herbs cooked in the oven and chadder cheese on the top(served with no side dish) ...</p>
+                <p class="card-text"><small class="text-muted">53 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="tab-pane fade" id="m-courses-II" role="tabpanel" aria-labelledby="m-courses-II-tab">
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Local Casserolle with Vegatable and Meat(beef and lamb)</h5>
+                <p class="card-text">Cooked in the oven with mushrooms,pepper,tomato,onion,garlic,aubergine etc served in clay dish...</p>
+                <p class="card-text"><small class="text-muted">52 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Aubergine Mousakka</h5>
+                <p class="card-text">Not Today ...</p>
+                <p class="card-text"><small class="text-muted">- ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sizzling Lamb</h5>
+                <p class="card-text">Finely chopped lamb cooked in the pan with onion,pepper,tomato,oregano,chili flakes served in iron plate with fire underneath and served rice as a side dish ...</p>
+                <p class="card-text"><small class="text-muted">52 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sizzling Chicken</h5>
+                <p class="card-text">Finely chopped chicken cooked in the pan with onion,pepper,tomato,oregano,chili flakes served in iron plate with fire underneath and served rice as a side dish ...</p>
+                <p class="card-text"><small class="text-muted">37 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Special Çardak Kebab</h5>
+                <p class="card-text">Cubed lamb cooked in stew pan with onion,garlic,tomato,green pepper,mushrooms,some water;spread bechamel sauce on a crepe after that the mixture wrapped in this crepe added chadder cheese on the top cooked in the oven in a clay dish...</p>
+                <p class="card-text"><small class="text-muted">54 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sizzling Liver</h5>
+                <p class="card-text">Finely chopped liver(lamb liver) in the pan with onion,pepper,tomato,oregano,chili flakes served in iron plate with fire underneath and served rice as a side dish...</p>
+                <p class="card-text"><small class="text-muted">38 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chicken Curry</h5>
+                <p class="card-text">Chicken cooked in a pan with cream and curry sauce ...</p>
+                <p class="card-text"><small class="text-muted">41 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Karnıyarık(Riven Belly)</h5>
+                <p class="card-text">Split aubergines stuffed with minced meat and cooked in the oven in a clay dish served with rice as a side dish ...</p>
+                <p class="card-text"><small class="text-muted">35 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chicken Schnitzel</h5>
+                <p class="card-text">Chickhen Schnitzel with chips  ...</p>
+                <p class="card-text"><small class="text-muted">35 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lamb Tandour(hole in the earth with wood fire-tandour oven) </h5>
+                <p class="card-text">Lamb roasted in tandour oven served in a clay dish and rice as side dish(may include bay leaf and onion to flavour) ...</p>
+                <p class="card-text"><small class="text-muted">52 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lamb Shank</h5>
+                <p class="card-text">Lamb Shank(lamb contains a big bone) served such as lamb tandour(the item above) ...</p>
+                <p class="card-text"><small class="text-muted">52 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Village Style Meatballs</h5>
+                <p class="card-text">Homemade meatballs grilled served with fire roasted aubergine,grilled lavash bread,garlic yogurt,butter,rice , roasted tomato,pepper,onion etc spiced with oregano ...</p>
+                <p class="card-text"><small class="text-muted">40 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="grills" role="tabpanel" aria-labelledby="grills-tab">
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Grilled Meatballs</h5>
+                <p class="card-text">Homemade meatballs grilled served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Roasted meatballs in a clay dish</h5>
+                <p class="card-text">Meatballs in a clay dish chadder cheese topped and cooked in the oven...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hot Chili Kebab</h5>
+                <p class="card-text">Mixture of minced beef and minced lamb(%70 beef %30 lamb) and a little tail fat and chili flakes and salt put on wooden skewer and barbequed on charcoal fire ,similar to Adana Kebab...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Aubergine Kebab</h5>
+                <p class="card-text">Slice of aubergine and meatballs lined up and barbequed and served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lamb Chops</h5>
+                <p class="card-text">lamb chops barbequed and served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
+                <p class="card-text"><small class="text-muted">53 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chicken on the Skewers</h5>
+                <p class="card-text">Chicken on the skewers(3 skewers of chicken-used marinated chicken breast) barbequed and served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
+                <p class="card-text"><small class="text-muted">35 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mix Grill Plate</h5>
+                <p class="card-text"> 1 Lamb chops,2 meatballs,1 skewer of chicken and one small steak served with rice ,fire roasted pepper,onion,tomato  ...</p>
+                <p class="card-text"><small class="text-muted">58 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chicken Chops</h5>
+                <p class="card-text">Chicken Chops served with rice ,some roasted tomato,pepper,onion etc spiced with oregano...</p>
+                <p class="card-text"><small class="text-muted">35 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="kids-menu" role="tabpanel" aria-labelledby="kids-menu-tab">
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Small Meatballs</h5>
+                <p class="card-text">Meatballs put on wooden sticks(2 sticks of meatballs) and grilled served with chips on the side</p>
+                <p class="card-text"><small class="text-muted">24 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chicken Fingers</h5>
+                <p class="card-text">Chicken Fingers and Chips ...</p>
+                <p class="card-text"><small class="text-muted">24 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fish Fingers</h5>
+                <p class="card-text">Fish Fingers and Chips ...</p>
+                <p class="card-text"><small class="text-muted">24 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sausage and Chips</h5>
+                <p class="card-text">...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chicken on the skewers and chips</h5>
+                <p class="card-text">2 sticks of chickhen served with chips on the side ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tuna Fish Sandwich and Chips</h5>
+                <p class="card-text">...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="desserts" role="tabpanel" aria-labelledby="desserts-tab">
+          <div class="card-deck">
+            <<em>All desserts served with ice-cream on the side </em>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Banana Crepe</h5>
+                <p class="card-text">...</p>
+                <p class="card-text"><small class="text-muted">20 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Honey and Walnut Crepe</h5>
+                <p class="card-text">...</p>
+                <p class="card-text"><small class="text-muted">30 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Lemon and Sugar Crepe...</p>
+                <p class="card-text"><small class="text-muted">19 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chocolate Crepe</h5>
+                <p class="card-text"> ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Banana</h5>
+                <p class="card-text">Fried in Butter and served with honey and ice-cream...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Baklava</h5>
+                <p class="card-text">...</p>
+                <p class="card-text"><small class="text-muted">19 ₺</small></p>
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+          <div class="card-deck">
+
+
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Baked Halva(Helva)</h5>
+                <p class="card-text">Tahini(which is made of sesame seeds) Halva put in little clay bowl ,some milk added,cooked in the oven,topped with walnut and ice-cream respectively and served...</p>
+                <p class="card-text">Eating Tahini Halva after eating fish as a main course is a tradition  in Turkey;in this village is it served in this special style...</p>
+                <p class="card-text"><small class="text-muted">19 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Yogurt with Honey</h5>
+                <p class="card-text"> ...</p>
+                <p class="card-text"><small class="text-muted">16 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
               <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Crepe with Apple Marmalade</h5>
@@ -1027,51 +1030,42 @@
 
 
 
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="nonalcoholic-drinks" role="tabpanel" aria-labelledby="nonalcoholic-drinks-tab">
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Water</h5>
+                <p class="card-text">...</p>
+                <p class="card-text"><small class="text-muted">5 ₺</small></p>
+              </div>
             </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Coke/Fanta/Sprite</h5>
+                <p class="card-text"> ...</p>
+                <p class="card-text"><small class="text-muted">8 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fruit Juices</h5>
+                <p class="card-text"> ...</p>
+                <p class="card-text"><small class="text-muted">8 ₺</small></p>
+              </div>
+            </div>
+
           </div>
 
-          <div class="tab-pane fade" id="nonalcoholic-drinks" role="tabpanel" aria-labelledby="nonalcoholic-drinks-tab">
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Water</h5>
-                  <p class="card-text">...</p>
-                  <p class="card-text"><small class="text-muted">5 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Coke/Fanta/Sprite</h5>
-                  <p class="card-text"> ...</p>
-                  <p class="card-text"><small class="text-muted">8 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fruit Juices</h5>
-                  <p class="card-text"> ...</p>
-                  <p class="card-text"><small class="text-muted">8 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Iced Tea Lemon/Iced Tea Peach </h5>
-                  <p class="card-text"> ...</p>
-                  <p class="card-text"><small class="text-muted">8 ₺</small></p>
-                </div>
-              </div>
+          <div class="card-deck">
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1081,6 +1075,7 @@
                   <p class="card-text"><small class="text-muted">15 ₺</small></p>
                 </div>
               </div>
+            </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1090,10 +1085,18 @@
                   <p class="card-text"><small class="text-muted">8 ₺</small></p>
                 </div>
               </div>
-
             </div>
 
-            <div class="card-deck">
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1112,6 +1115,7 @@
                   <p class="card-text"><small class="text-muted">14 ₺</small></p>
                 </div>
               </div>
+            </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1121,10 +1125,18 @@
                   <p class="card-text"><small class="text-muted">18 ₺</small></p>
                 </div>
               </div>
-
             </div>
 
-            <div class="card-deck">
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1135,12 +1147,18 @@
                 </div>
               </div>
 
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
             </div>
 
           </div>
 
-          <div class="tab-pane fade" id="nonalcoholic-coctails" role="tabpanel" aria-labelledby="nonalcoholic-drinks-tab">
-            <div class="card-deck">
+        </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1159,6 +1177,7 @@
                   <p class="card-text"><small class="text-muted">20 ₺</small></p>
                 </div>
               </div>
+            </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1168,12 +1187,22 @@
                   <p class="card-text"><small class="text-muted">25 ₺</small></p>
                 </div>
               </div>
-
             </div>
-          </div>
 
-          <div class="tab-pane fade" id="alcoholic-drinks" role="tabpanel" aria-labelledby="alcoholic-drinks-tab">
-            <div class="card-deck">
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="alcoholic-drinks" role="tabpanel" aria-labelledby="alcoholic-drinks-tab">
+          <div class="card-deck">
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1183,6 +1212,7 @@
                   <p class="card-text"><small class="text-muted">20 ₺</small></p>
                 </div>
               </div>
+            </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1192,6 +1222,7 @@
                   <p class="card-text"><small class="text-muted">20 ₺</small></p>
                 </div>
               </div>
+            </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1201,10 +1232,9 @@
                   <p class="card-text"><small class="text-muted">20 ₺</small></p>
                 </div>
               </div>
-
             </div>
 
-            <div class="card-deck">
+          </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1223,6 +1253,7 @@
                   <p class="card-text"><small class="text-muted">22 ₺</small></p>
                 </div>
               </div>
+            </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1232,10 +1263,18 @@
                   <p class="card-text"><small class="text-muted">20 ₺</small></p>
                 </div>
               </div>
-
             </div>
 
-            <div class="card-deck">
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
 
               <div class="card mb-3">
                 <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
@@ -1247,407 +1286,420 @@
                 </div>
               </div>
 
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="tab-pane fade" id="alcoholic-coctails" role="tabpanel" aria-labelledby="alcoholic-coctails-tab">
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="tab-pane fade" id="wines" role="tabpanel" aria-labelledby="wines-tab">
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mushrooms in garlic</h5>
-                  <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
-                  <p class="card-text"><small class="text-muted">22 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fried Aubergine and Pepper</h5>
-                  <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
-                  <p class="card-text"><small class="text-muted">18 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
           </div>
 
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="alcoholic-coctails" role="tabpanel" aria-labelledby="alcoholic-coctails-tab">
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="wines" role="tabpanel" aria-labelledby="wines-tab">
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mushrooms in garlic</h5>
+                <p class="card-text">Chopped mushrooms cooked in a pan with butter and garlic,you may demand a piece of shreded cheddar cheese on the top ...</p>
+                <p class="card-text"><small class="text-muted">22 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/set-menu-495x400.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fried Aubergine and Pepper</h5>
+                <p class="card-text">Sliced Aubergines and Peppers fried and served with garlic yogurt ...</p>
+                <p class="card-text"><small class="text-muted">18 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+<<<<<<< HEAD
           <div class="tab-pane fade" id="fish-day" role="tabpanel" aria-labelledby="fish-day-tab">
 
             <div class="card-deck">
+=======
+        </div>
+>>>>>>> 31f54095611e4dbe2fedad8ea319d6467239febc
 
-              <div class="card mb-3">
-                <img src="../img/menu/FishOfTheDay/WildSeaBass.jpeg" class="card-img-top" alt="...">
-                <img src="../img/menu/FishOfTheDay/Fillet-Wild-SeaBass.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Wild Sea Bass</h5>
-                  <p class="card-text">Big Wild Sea Bass grilled and served with hot patatoes,and roasted vegetables...</p>
-                  <p class="card-text">About 900-1000 gr ordered for 1-2 people...</p>
-                  <p class="card-text"><small class="text-muted">100 ₺</small></p>
-                </div>
+        <div class="tab-pane fade" id="fish-day" role="tabpanel" aria-labelledby="fish-day-tab">
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/FishOfTheDay/WildSeaBass.jpeg" class="card-img-top" alt="...">
+              <img src="../img/menu/FishOfTheDay/Fillet-Wild-SeaBass.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wild Sea Bass</h5>
+                <p class="card-text">Big Wild Sea Bass grilled and served with hot patatoes,and roasted vegetables...</p>
+                <p class="card-text">About 900-1000 gr ordered for 1-2 people...</p>
+                <p class="card-text"><small class="text-muted">100 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/FishOfTheDay/WildSeaBream.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Wild Sea Bream </h5>
-                  <p class="card-text">Big Wild Sea Bream grilled and served with hot patatoes,and roasted vegetables...</p>
-                  <p class="card-text">About 900-1000 gr ordered for 1-2 people...</p>
-                  <p class="card-text"><small class="text-muted">100 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/FishOfTheDay/FilletSword.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Fillet Sword Fish</h5>
-                  <p class="card-text">Grilled and served with sliced salad garnish and a bit of chips...</p>
-                  <p class="card-text"><small class="text-muted">55 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="../img/menu/FishOfTheDay/Grouper.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Grouper</h5>
-                  <p class="card-text">Fillet Battered Grouper Fish fried in pan ...</p>
-                  <p class="card-text"><small class="text-muted">55 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/FishOfTheDay/WildSeaBream.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wild Sea Bream </h5>
+                <p class="card-text">Big Wild Sea Bream grilled and served with hot patatoes,and roasted vegetables...</p>
+                <p class="card-text">About 900-1000 gr ordered for 1-2 people...</p>
+                <p class="card-text"><small class="text-muted">100 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/FishOfTheDay/Leer.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Leer Fish</h5>
-                  <p class="card-text">Fillet leer fish fried/grilled/skewered selections served with onion,lemon and garnish with parsley...</p>
-                  <p class="card-text"><small class="text-muted">55 ₺</small></p>
-                </div>
-              </div>
-
-              <div class="card mb-3">
-                <img src="../img/menu/FishOfTheDay/RedSeaBream.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Red Sea Bream</h5>
-                  <p class="card-text">Red Sea Breams on the picture fried and served (4-5 fishes in a portion)...</p>
-                  <p class="card-text"><small class="text-muted">55 ₺</small></p>
-                </div>
-              </div>
-
             </div>
 
-            <div class="card-deck">
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Blue Fish</h5>
-                  <p class="card-text">Blue Fish Grilled and served 900-1000 gr for 1-2 people served fillet or whole fish ...</p>
-                  <p class="card-text"><small class="text-muted">90 ₺</small></p>
-                </div>
+            <div class="card mb-3">
+              <img src="../img/menu/FishOfTheDay/FilletSword.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fillet Sword Fish</h5>
+                <p class="card-text">Grilled and served with sliced salad garnish and a bit of chips...</p>
+                <p class="card-text"><small class="text-muted">55 ₺</small></p>
               </div>
-
-              <div class="card mb-3">
-                <img src="" class="card-img-top" alt="No image...">
-                <div class="card-body">
-                  <h5 class="card-title">Haddock</h5>
-                  <p class="card-text">Haddock Grilled and served 1000-1200 gr for 2-3 people served fillet or whole fish ...</p>
-                  <p class="card-text"><small class="text-muted">130 ₺</small></p>
-                </div>
-              </div>
-
-
-
-
-
             </div>
+
           </div>
 
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="../img/menu/FishOfTheDay/Grouper.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Grouper</h5>
+                <p class="card-text">Fillet Battered Grouper Fish fried in pan ...</p>
+                <p class="card-text"><small class="text-muted">55 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/FishOfTheDay/Leer.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Leer Fish</h5>
+                <p class="card-text">Fillet leer fish fried/grilled/skewered selections served with onion,lemon and garnish with parsley...</p>
+                <p class="card-text"><small class="text-muted">55 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="../img/menu/FishOfTheDay/RedSeaBream.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Sea Bream</h5>
+                <p class="card-text">Red Sea Breams on the picture fried and served (4-5 fishes in a portion)...</p>
+                <p class="card-text"><small class="text-muted">55 ₺</small></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-deck">
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Blue Fish</h5>
+                <p class="card-text">Blue Fish Grilled and served 900-1000 gr for 1-2 people served fillet or whole fish ...</p>
+                <p class="card-text"><small class="text-muted">90 ₺</small></p>
+              </div>
+            </div>
+
+            <div class="card mb-3">
+              <img src="" class="card-img-top" alt="No image...">
+              <div class="card-body">
+                <h5 class="card-title">Haddock</h5>
+                <p class="card-text">Haddock Grilled and served 1000-1200 gr for 2-3 people served fillet or whole fish ...</p>
+                <p class="card-text"><small class="text-muted">130 ₺</small></p>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
         </div>
+
       </div>
     </div>
 
