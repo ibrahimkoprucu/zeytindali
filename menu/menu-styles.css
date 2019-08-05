@@ -17,3 +17,7 @@
 .card {
   max-width: 348px !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
