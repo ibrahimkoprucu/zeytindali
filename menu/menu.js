@@ -13,6 +13,7 @@ $('a[role=tab]').on("click", function (event) {
       scrollTop: target.offset().top
     }, 700, function () {
 
+      document.getElementById(target.attr("id")).scrollIntoView();
       window.location.hash = hash;
 
       var $target = $(target);
@@ -22,7 +23,7 @@ $('a[role=tab]').on("click", function (event) {
       } else {
         $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
         $target.focus(); // Set focus again
-      };
+      }
     });
   }
 
