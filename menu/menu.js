@@ -6,9 +6,11 @@ $('a[role=tab]').on("click", function (event) {
   if (target.length) {
     event.preventDefault();
 
-    $('html body').animate({ scrollTop: target.offset().top }, 500, function () {
+    var tab = document.getElementById(target.attr("id"));
+
+    $('html body').animate({ scrollTop: tab.offsetTop }, 500, function () {
       window.location.hash = hash;
-      document.getElementById(target.attr("id")).scrollIntoView();
+      tab.scrollIntoView();
     });
   }
 
