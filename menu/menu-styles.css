@@ -2,6 +2,10 @@
   background-color: green;
   color: white;
 }
+.blue {
+  color: blue;
+}
+
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
@@ -55,7 +59,4 @@ html {
   a.nav-link {
     width: 170px;
   }
-}
-.blue{
-  color: blue;
 }
