@@ -21,3 +21,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+a.nav-link {
+  width: 170px;
+}
