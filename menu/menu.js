@@ -8,8 +8,10 @@ $('a[role=tab]').on("click", function (event) {
 
     var tab = document.getElementById(target.attr("id"));
 
-    window.location.hash = hash;
-    tab.scrollIntoView();
+    $('html body').animate({ scrollTop: tab.offsetTop }, 500, function () {
+      window.location.hash = hash;
+      tab.scrollIntoView();
+    });
   }
 
 });
