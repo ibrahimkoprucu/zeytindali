@@ -5,6 +5,9 @@
 .blue {
   color: blue;
 }
+.red {
+  color: red;
+}
 
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
