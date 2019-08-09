@@ -8,7 +8,10 @@
 .red {
   color: red;
 }
-
+.boyutlandırma {
+  max-width: 495 px;
+  height: auto;
+}
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
