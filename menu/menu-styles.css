@@ -10,7 +10,7 @@
 }
 .boyutlandırma {
   max-width: 400 px;
-  height: 25 rem;
+  height:auto;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
