@@ -8,19 +8,17 @@
 .red {
   color: red;
 }
-/* .boyutlandırma {
-  width: 400 px;
-  height:495 px;
-} */
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   color: #fff;
   background-color: #28a745 !important;
 }
 
 .card-img-top {
   max-width: 348px !important;
-  object-fit: cover;
+  max-height: 495px;
+  object-fit: fill;
   object-position: center center;
 }
 
