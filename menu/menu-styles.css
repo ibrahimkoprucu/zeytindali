@@ -9,8 +9,8 @@
   color: red;
 }
 .boyutlandırma {
-  max-width: 400 px;
-  height: auto;
+  max-width: 495 px;
+  height: 400;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
