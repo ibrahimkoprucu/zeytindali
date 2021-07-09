@@ -1,4 +1,4 @@
 # robots.txt
 User-agent: *
 Disallow: 
-Sitemap: http://zeytindaliislamlar.com/sitemap.xml
+Sitemap: http://zeytindalirestaurant.com/sitemap.xml
