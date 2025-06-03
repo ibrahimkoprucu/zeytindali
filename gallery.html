@@ -7,7 +7,7 @@
 
     <meta name="title" content="Zeytin Dalı Restaurant İslamlar Gallery Page">
     <meta name="description"
-        content="Zeytin Dalı, New Restaurant in İslamlar village, with its dynamic team, Ramazan Chef prepare tasty food with his 25 years of experience.">
+        content="At Zeytin Dalı Restaurant in İslamlar village, Chef Ramazan and his team craft delicious dishes, drawing on his 35 years of culinary expertise.">
     <meta name="keywords" content="Restaurant, İslamlar, Kaş">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -22,7 +22,7 @@
 
     <meta property="og:title" content="Zeytin Dalı Restaurant İslamlar Gallery Page">
     <meta property="og:description"
-        content="Zeytin Dalı, New Restaurant in İslamlar village, with its dynamic team, Ramazan Chef prepare tasty food with his 25 years of experience.">
+        content="At Zeytin Dalı Restaurant in İslamlar village, Chef Ramazan and his team craft delicious dishes, drawing on his 35 years of culinary expertise.">
     <meta property="og:image" content="http://zeytindalirestaurant.com/img/tabela.jpg">
     <meta property="og:url" content="http://zeytindalirestaurant.com/gallery.html">
     <meta property="og:site_name" content="Zeytin Dalı Restaurant, İslamlar, Gallery Page">
@@ -32,7 +32,6 @@
 
     <link rel="stylesheet" href="bootstrap.css" />
     <link href="https://fonts.googleapis.com/css?family=Nunito|Titillium+Web&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
 
     <title>Zeytin Dalı Restaurant, İslamlar, Gallery Page</title>
@@ -54,11 +53,33 @@
             color: #28a745;
         }
 
-        img {
-            -ms-border-radius: 5.5px;
+        .gallery-img {
             border-radius: 5.5px;
             max-height: 220px;
             margin: 6px;
+            transition: transform 0.2s;
+        }
+
+        .gallery-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .imglist {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .imglist a {
+            display: inline-block;
+        }
+
+        .back-link {
+            margin-top: 2em;
+            display: block;
+            text-align: center;
         }
     </style>
 
@@ -68,121 +89,97 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-139848490-1');
     </script>
-
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="http://zeytindalirestaurant.com/gallery.html">Photo Gallery</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="http://zeytindalirestaurant.com/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="http://zeytindalirestaurant.com/menu/menu.html">Restaurant Menu</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="gallery.html">Photo Gallery</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu/menu.html">Restaurant Menu</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container mt-3">
         <div class="row">
-
             <div class="text-center w-100" itemscope itemtype="http://schema.org/Restaurant">
                 <h1 itemprop="name">Zeytin Dalı Restaurant, Picture Gallery</h1>
-                <h2 class="slogan" itemprop="description"> Happy Guests | Nice Scenery | Picturesque Village </h2>
+                <h2 class="slogan" itemprop="description">Happy Guests | Nice Scenery | Picturesque Village</h2>
             </div>
-
         </div>
 
-        <p class="imglist">
-
+        <div class="imglist">
             <a href="img/gallery/happy_customers.jpeg" data-fancybox="images">
-                <img src="img/gallery/happy_customers.jpeg" alt="happy guests" />
+                <img src="img/gallery/happy_customers.jpeg" alt="happy guests" class="gallery-img" />
             </a>
-
             <a href="img/gallery/kozalak.jpeg" data-fancybox="images">
-                <img src="img/gallery/kozalak.jpeg" alt="kozalak" />
+                <img src="img/gallery/kozalak.jpeg" alt="kozalak" class="gallery-img" />
             </a>
-
             <a href="img/gallery/happy_customers-2.jpeg" data-fancybox="images">
-                <img src="img/gallery/happy_customers-2.jpeg" alt="happy guests" />
+                <img src="img/gallery/happy_customers-2.jpeg" alt="happy guests" class="gallery-img" />
             </a>
-
             <a href="img/gallery/mix_grill.jpeg" data-fancybox="images">
-                <img src="img/gallery/mix_grill.jpeg" alt="mix grill" />
+                <img src="img/gallery/mix_grill.jpeg" alt="mix grill" class="gallery-img" />
             </a>
-
             <a href="img/gallery/bazlama.JPG" data-fancybox="images">
-                <img src="img/gallery/bazlama.JPG" alt="bazlama" />
+                <img src="img/gallery/bazlama.JPG" alt="bazlama" class="gallery-img" />
             </a>
-
             <a href="img/gallery/happy_customers-3.jpeg" data-fancybox="images">
-                <img src="img/gallery/happy_customers-3.jpeg" alt="happy guests" />
+                <img src="img/gallery/happy_customers-3.jpeg" alt="happy guests" class="gallery-img" />
             </a>
-
             <a href="img/gallery/havuz.JPG" data-fancybox="images">
-                <img src="img/gallery/havuz.JPG" alt="pool" />
+                <img src="img/gallery/havuz.JPG" alt="pool" class="gallery-img" />
             </a>
-
             <a href="img/gallery/cay.JPG" data-fancybox="images">
-                <img src="img/gallery/cay.JPG" alt="turkish tea" />
+                <img src="img/gallery/cay.JPG" alt="turkish tea" class="gallery-img" />
             </a>
-
             <a href="img/gallery/flower.jpeg" data-fancybox="images">
-                <img src="img/gallery/flower.jpeg" alt="flower" />
+                <img src="img/gallery/flower.jpeg" alt="flower" class="gallery-img" />
             </a>
-
             <a href="img/gallery/customers.JPG" data-fancybox="images">
-                <img src="img/gallery/customers.JPG" alt="happy family" />
+                <img src="img/gallery/customers.JPG" alt="happy family" class="gallery-img" />
             </a>
-
             <a href="img/gallery/firehouse.jpeg" data-fancybox="images">
-                <img src="img/gallery/firehouse.jpeg" alt="firehouse" />
+                <img src="img/gallery/firehouse.jpeg" alt="firehouse" class="gallery-img" />
             </a>
-
             <a href="img/gallery/delicious.jpg" data-fancybox="images">
-                <img src="img/gallery/delicious.jpg" alt="delicious" />
+                <img src="img/gallery/delicious.jpg" alt="delicious" class="gallery-img" />
             </a>
-
             <a href="img/gallery/view.JPG" data-fancybox="images">
-                <img src="img/gallery/view.JPG" alt="view" />
+                <img src="img/gallery/view.JPG" alt="view" class="gallery-img" />
             </a>
-
             <a href="img/gallery/team.JPG" data-fancybox="images">
-                <img src="img/gallery/team.JPG" alt="team" />
+                <img src="img/gallery/team.JPG" alt="team" class="gallery-img" />
             </a>
-
             <a href="img/gallery/atmosfer.jpeg" data-fancybox="images">
-                <img src="img/gallery/atmosfer.jpeg" alt="atmosfer" />
+                <img src="img/gallery/atmosfer.jpeg" alt="atmosfer" class="gallery-img" />
             </a>
-
             <a href="img/gallery/faces.jpeg" data-fancybox="images">
-                <img src="img/gallery/faces.jpeg" alt="faces" />
+                <img src="img/gallery/faces.jpeg" alt="faces" class="gallery-img" />
             </a>
-
             <a href="img/gallery/tablo.jpeg" data-fancybox="images">
-                <img src="img/gallery/tablo.jpeg" alt="tablo" />
+                <img src="img/gallery/tablo.jpeg" alt="tablo" class="gallery-img" />
             </a>
-
             <a href="img/gallery/view.jpeg" data-fancybox="images">
-                <img src="img/gallery/view.jpeg" alt="view" />
+                <img src="img/gallery/view.jpeg" alt="view" class="gallery-img" />
             </a>
             <a href="img/gallery/giles.PNG" data-fancybox="images">
-                <img src="img/gallery/giles.PNG" alt="lovely guests" />
+                <img src="img/gallery/giles.PNG" alt="lovely guests" class="gallery-img" />
             </a>
-        </p>
-
-        <div class="row">
-            <a href="index.html">Back To Home Page</a>
         </div>
+
+        <a href="index.html" class="back-link">Back To Home Page</a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -194,9 +191,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
     <script src="js/jquery.fancybox.min.js"></script>
-
 </body>
 
 </html>
