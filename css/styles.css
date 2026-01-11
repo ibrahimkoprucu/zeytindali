@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #0f424a; /* Dark teal - brand color */
+  --accent-color: #28a745; /* Green accent */
+  --bg-light: #f8f8f5; /* Off-white cream */
+}
+
+html,
+body {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--bg-light);
+}
+
+/* Navbar font stability */
+.navbar {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1,
+.h1 {
+  font-size: 3.5rem;
+  color: var(--primary-color) !important;
+}
+
+.slogan {
+  font-size: 1.6em;
+  color: var(--accent-color);
+}
+
+img {
+  border-radius: 10.5px;
+  max-height: 500px;
+}
+
+div.autoWidth div {
+  width: auto !important;
+}
+
+#CDSROWLOC102 {
+  max-width: 174px !important;
+}

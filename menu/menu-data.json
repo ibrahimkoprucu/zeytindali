@@ -1,0 +1,1120 @@
+{
+  "restaurant": {
+    "name": "Zeytin Dalı Restaurant",
+    "location": "İslamlar",
+    "contact": {
+      "phone": "+905363392302",
+      "messenger": "https://m.me/zeytindaliislamlar"
+    }
+  },
+  "categories": [
+    {
+      "id": "breakfast",
+      "nameTR": "Köy Kahvaltısı",
+      "nameEN": "Village Breakfast",
+      "items": [
+        {
+          "nameTR": "Serpme Köy Kahvaltısı",
+          "nameEN": "Spread Village Breakfast",
+          "description": "Tomato, cucumber, rocket, parsley; cheddar cheese, feta cheese, plaited cheese; fig jam, cherry jam, apricot jam, blackberry jam, tahini, grape molasses; honey, butter, olives, olive oil; toasted bread, flat bread, hot pita bread; Hot items: Fried goat cheese, fried egg, homemade chips; Unlimited Turkish tea and coffee",
+          "image": "../img/menu/breakfast.jpeg",
+          "price": null,
+          "note": "You may add more food ordering items below"
+        },
+        {
+          "nameTR": "Ev Yapımı Patates Kızartması",
+          "nameEN": "Homemade Chips",
+          "description": "Best potatoes found peeled and deep fried in fresh oil",
+          "image": "../img/menu/chips.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Sucuk Kızartma",
+          "nameEN": "Fried Garlic Sausage (Turkish Sausage)",
+          "description": "Traditional Turkish sausage fried to perfection",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Menemen",
+          "nameEN": "Menemen",
+          "description": "Scrambled egg with tomato and green pepper, cooked and served in the pan",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Sigara Böreği",
+          "nameEN": "Cheese Rolls",
+          "description": "Flat bread rolled with mixture of cheese and parsley and fried",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Hakiki Köy Kaymağı",
+          "nameEN": "Real Village Milk Cream",
+          "description": "Authentic village-style cream from fresh milk",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Sıkma Portakal Suyu",
+          "nameEN": "Freshly Squeezed Orange Juice",
+          "description": "Fresh oranges squeezed to order",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kıymalı Yumurta",
+          "nameEN": "Egg In Minced Meat",
+          "description": "Minced meat cooked in pan with butter, cracked eggs inside and cooked a bit more",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kavurmalı Yumurta",
+          "nameEN": "Egg In Meat Cubes (Lamb)",
+          "description": "Cooking method same as Egg In Minced Meat",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "omlettes",
+      "nameTR": "Omletler",
+      "nameEN": "Omelettes",
+      "items": [
+        {
+          "nameTR": "Sade Omlet",
+          "nameEN": "Plain Omelette",
+          "description": "Garnished with tomato, cucumber and parsley",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Mantarlı Omlet",
+          "nameEN": "Mushroom Omelette",
+          "description": "Garnished with tomato, cucumber and parsley",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kaşar Peynirli Omlet",
+          "nameEN": "Cheddar Cheese Omelette",
+          "description": "Garnished with tomato, cucumber and parsley",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Karışık Omlet",
+          "nameEN": "Mixed Omelette",
+          "description": "Garnished with tomato, cucumber and parsley",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Menemen",
+          "nameEN": "Menemen",
+          "description": "Scrambled egg with tomato and green pepper, cooked and served in the pan",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "cold-starters",
+      "nameTR": "Soğuk Başlangıçlar",
+      "nameEN": "Cold Starters",
+      "items": [
+        {
+          "nameTR": "Acılı Ezme",
+          "nameEN": "Hot Spicy Tomato Dip",
+          "description": "Red and green capia pepper, tomato, garlic, chili flakes, olive oil, mint, seasoning, red pepper paste",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Mücver",
+          "nameEN": "Courgette Fritters",
+          "description": "Courgette, parsley, spring onion, dill, feta cheese, flour, sunflower oil, beaten egg, black pepper; served oven baked with cheddar cheese on top",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Humus",
+          "nameEN": "Hoummous (Chickpea Puree)",
+          "description": "Chickpea, garlic, green chilies, olive oil, fresh lemon juice, a little tahini",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Patlıcan Söğürme",
+          "nameEN": "Aubergine Puree with Yogurt",
+          "description": "Fire roasted aubergines with mayonnaise, yogurt and garlic",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Yaprak Sarma",
+          "nameEN": "Stuffed Vine Leaves",
+          "description": "Vine leaves stuffed with rice",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Haydari",
+          "nameEN": "Haydari",
+          "description": "Garlic and mint in strained yogurt (thick yogurt)",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Cacık",
+          "nameEN": "Cacık",
+          "description": "Chopped cucumber, garlic and mint in strained yogurt (thick yogurt)",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Havuç Tarator",
+          "nameEN": "Carrot in Tarator Sauce",
+          "description": "Grated carrot, olive oil, walnut, strained yogurt, mayonnaise, garlic, and dill",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Karışık Meze Tabağı",
+          "nameEN": "Mixed Meze Plate",
+          "description": "A selection of all cold starters in this section and 2 hot starters in a platter (choice of hot starters depends on chef)",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "hot-starters",
+      "nameTR": "Sıcak Başlangıçlar",
+      "nameEN": "Hot Starters",
+      "items": [
+        {
+          "nameTR": "Sarımsaklı Karides",
+          "nameEN": "Garlic Shrimps",
+          "description": "Shrimps in butter, garlic, chili flakes",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kalamar Tava",
+          "nameEN": "Fried Calamari",
+          "description": "Marinated squid rings fried and served with special dip",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Alabalık Köfte",
+          "nameEN": "Trout Fish Cakes",
+          "description": "Boneless trout kneaded with herbs and spices, shaped like meatball, fried and served",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Sarımsaklı Mantar",
+          "nameEN": "Garlic Mushrooms",
+          "description": "Chopped mushrooms cooked in pan with butter and garlic (ask for cheddar cheese on top)",
+          "image": "../img/menu/garlicMushrooms.jpeg",
+          "price": 0,
+          "currency": "₺"
+        },
+        {
+          "nameTR": "Patlıcan Biber Kızartma",
+          "nameEN": "Fried Aubergine and Pepper",
+          "description": "Served with garlic yogurt and tomato sauce on request",
+          "image": "../img/menu/friedAubergine.jpeg",
+          "price": 0,
+          "currency": "₺"
+        },
+        {
+          "nameTR": "Sigara Böreği",
+          "nameEN": "Cheese Rolls",
+          "description": "Flat bread rolled with mixture of cheese and parsley and fried",
+          "image": "../img/menu/cheeseRolls.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Kızarmış Keçi Peyniri",
+          "nameEN": "Fried Goat's Cheese",
+          "description": "Village goat's cheese fried in butter, spiced with chili flakes and oregano, served in pan",
+          "image": "../img/menu/Fried-Cheese.jpg",
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "nameTR": "Salatalar",
+      "nameEN": "Salads",
+      "items": [
+        {
+          "nameTR": "Çoban Salata",
+          "nameEN": "Shepherd Salad",
+          "description": "Salad with tomatoes, cucumber, pepper, parsley and onion",
+          "image": "../img/menu/shepherdSalad.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Yeşil Salata",
+          "nameEN": "Green Salad",
+          "description": "Lettuce, rocket, parsley",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Beyaz Peynirli Salata",
+          "nameEN": "Feta Cheese Salad",
+          "description": "Salad with feta cheese, cherry tomatoes, onions, lettuce, parsley, fresh lemon juice",
+          "image": "../img/menu/whiteCheeseSalad.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Ton Balıklı Salata",
+          "nameEN": "Tuna Fish Salad",
+          "description": "Salad with parsley, lettuce, mint and tuna fish",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Roka Salatası",
+          "nameEN": "Rocket Salad",
+          "description": "Finely chopped rocket and tomato",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Cevizli ve Kuru Üzümlü Salata",
+          "nameEN": "Walnut and Raisins Salad",
+          "description": "Salad with lettuce, parsley, walnut and raisins",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Avacadolu Salata",
+          "nameEN": "Avocado Salad",
+          "description": "Salad with avocado",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "nameTR": "Atıştırmalıklar",
+      "nameEN": "Snacks",
+      "items": [
+        {
+          "nameTR": "Ev Yapımı Patates Kızartması",
+          "nameEN": "Homemade Chips",
+          "description": "Best potatoes found peeled and deep fried in fresh oil",
+          "image": "../img/menu/chips.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Duble Ev Yapımı Patates Kızartması",
+          "nameEN": "Double Homemade Chips",
+          "description": "Double amount of Homemade Chips served in a big platter",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Hamburger",
+          "nameEN": "Hamburger",
+          "description": "Contains homemade hamburger patty and tomato, lettuce, pickled cucumber inside",
+          "image": "../img/menu/hamburger.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "CheeseBurger",
+          "nameEN": "CheeseBurger",
+          "description": "Same Burger with cheddar cheese",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Tavuk Dürüm",
+          "nameEN": "Chicken Wrap",
+          "description": "Chicken breast, sliced tomato, finely chopped lettuce, chopped onion, flat bread",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Balık ve Chips",
+          "nameEN": "Fish and Chips",
+          "description": "Battered haddock fish served with homemade chips",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "pastas",
+      "nameTR": "Makarnalar",
+      "nameEN": "Pastas",
+      "items": [
+        {
+          "nameTR": "Penne Alfredo",
+          "nameEN": "Penne Alfredo",
+          "description": "With sauce including butter, chicken breast, mushrooms, garlic, onion, cream, basil, and cheddar cheese on the top",
+          "image": "../img/menu/penneAlfredo.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Penne Napolitano",
+          "nameEN": "Penne Napolitano",
+          "description": "",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Penne Bolognaise",
+          "nameEN": "Penne Bolognaise",
+          "description": "",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Mantı",
+          "nameEN": "Mantı (Turkish Ravioli)",
+          "description": "Turkish pasta bundles filled with minced meat boiled and served with garlic yogurt and sauce including chili flake and butter on the top (chili flakes sautéed in butter in a pan)",
+          "image": "../img/menu/mantı.jpeg",
+          "price": null,
+          "note": "Known as Turkish Ravioli (Similar but smaller)"
+        }
+      ]
+    },
+    {
+      "id": "m-courses-I",
+      "nameTR": "Ana Yemekler-I",
+      "nameEN": "Main Courses-I",
+      "items": [
+        {
+          "nameTR": "Fileto Alabalık Pane",
+          "nameEN": "Fillet Trout Breaded",
+          "description": "Fillet battered trout (with egg and flour) and fried and served with salad garnish on the side (sliced tomato, cucumber, onion, rocket, fried whole green pepper)",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Fırında Sebzeli Balık",
+          "nameEN": "Oven Baked Trout",
+          "description": "Whole trout (with bones ask for fillet) in clay dish with tomato, pepper, potato, garlic and butter cooked in the oven",
+          "image": "../img/menu/bakedTrout.PNG",
+          "price": null
+        },
+        {
+          "nameTR": "Kiremitte Kaşarlı Balık",
+          "nameEN": "In A Clay Dish Cheddar Trout",
+          "description": "Fillet trout (no bones, keep tail and head ask for tailless and headless) in a clay dish cooked in the oven",
+          "image": null,
+          "price": null,
+          "note": "Ask for without cheddar cheese"
+        },
+        {
+          "nameTR": "Alabalık Tava",
+          "nameEN": "Fried Trout",
+          "description": "Trout fried in olive oil and butter served with salad garnish and fried pepper on the side (ask for fillet before cooked or afterwards). 200-250 gr for one person",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Izgara Alabalık",
+          "nameEN": "Grilled Trout",
+          "description": "Trout grilled (barbecued over coal fire) served with salad garnish and fried pepper on the side (ask for fillet before cooked or afterwards). 200-250 gr for one person",
+          "image": "../img/menu/grilledTrout.jpg",
+          "price": null
+        },
+        {
+          "nameTR": "Izgara Levrek",
+          "nameEN": "Grilled Sea Bass",
+          "description": "Sea Bass grilled (barbecued over coal fire) served with salad garnish and fried pepper on the side (350-400 gr for one person - bigger than trout)",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Izgara Çupra",
+          "nameEN": "Grilled Sea Bream",
+          "description": "Sea Bream grilled (barbecued over coal fire) served with salad garnish and fried pepper on the side (350-400 gr for one person - bigger than trout)",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Fileto Dil Balığı",
+          "nameEN": "Fillet Flounder Fish",
+          "description": "Surprise",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Balık Şiş",
+          "nameEN": "Fish on Skewers",
+          "description": "Fillet sword fish or leer fish or haddock skewered and grilled (barbecued over coal fire) served with salad garnish and fried pepper on the side",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Günün Balığı",
+          "nameEN": "Fish of The Day",
+          "description": "Please click on fish of the day menu item",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Karışık Deniz Ürünleri Güveç",
+          "nameEN": "Mixed Seafood Casserole",
+          "description": "In a clay dish calamari, shrimps, haddock fish and mussels and some seasoning and herbs cooked in the oven and cheddar cheese on the top (served with no side dish)",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "fish-day",
+      "nameTR": "Günün Balığı",
+      "nameEN": "Fish of The Day",
+      "items": [
+        {
+          "nameTR": "Deniz Levreği",
+          "nameEN": "Wild Sea Bass",
+          "description": "Big Wild Sea Bass grilled and served with hot potatoes, and roasted vegetables. About 900-1000 gr ordered for 1-2 people",
+          "image": "../img/menu/wildSeaBass.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Deniz Çuprası",
+          "nameEN": "Wild Sea Bream",
+          "description": "Big Wild Sea Bream grilled and served with hot potatoes, and roasted vegetables. About 900-1000 gr ordered for 1-2 people",
+          "image": "../img/menu/wildSeaBream.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Fileto Kılıç Balığı",
+          "nameEN": "Fillet Sword Fish",
+          "description": "Grilled and served with sliced salad garnish and a bit of chips",
+          "image": "../img/menu/FishOfTheDay/FilletSword.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Lagos",
+          "nameEN": "Grouper",
+          "description": "Fillet battered Grouper Fish fried in pan",
+          "image": "../img/menu/FishOfTheDay/Grouper.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Mercan",
+          "nameEN": "Red Sea Bream",
+          "description": "Red Sea Breams on the picture fried and served (3-4 fishes in a portion)",
+          "image": "../img/menu/redSeaBream.jpeg",
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "m-courses-II",
+      "nameTR": "Ana Yemekler-II",
+      "nameEN": "Main Courses-II",
+      "items": [
+        {
+          "nameTR": "Yöresel Sebzeli ve Etli Güveç",
+          "nameEN": "Local Casserole with Vegetable and Meat (beef and lamb)",
+          "description": "Cooked in the oven with mushrooms, pepper, tomato, onion, garlic, aubergine etc served in clay dish",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Patlıcan Musakka",
+          "nameEN": "Aubergine Moussaka",
+          "description": "Traditional Turkish moussaka",
+          "image": "../img/menu/Mousakka.jpeg",
+          "price": null,
+          "note": "Not Today"
+        },
+        {
+          "nameTR": "Kuzu Kavurma",
+          "nameEN": "Roasting Lamb",
+          "description": "Finely chopped lamb cooked in the pan with onion, pepper, tomato, oregano, chili flakes served in iron plate with fire underneath and served rice as a side dish",
+          "image": "../img/menu/sizzlinglamb.PNG",
+          "price": null
+        },
+        {
+          "nameTR": "Tavuk Kavurma",
+          "nameEN": "Roasting Chicken",
+          "description": "Finely chopped chicken cooked in the pan with onion, pepper, tomato, oregano, chili flakes served in iron plate with fire underneath and served rice as a side dish",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Özel Çardak Kebabı",
+          "nameEN": "Special Çardak Kebab",
+          "description": "Cubed lamb cooked in stew pan with onion, garlic, tomato, green pepper, mushrooms, some water; spread bechamel sauce on a crepe after that the mixture wrapped in this crepe added cheddar cheese on the top cooked in the oven in a clay dish",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Ciğer Kavurma",
+          "nameEN": "Roasting Liver",
+          "description": "Finely chopped liver (lamb liver) in the pan with onion, pepper, tomato, oregano, chili flakes served in iron plate with fire underneath and served rice as a side dish",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Körili Tavuk",
+          "nameEN": "Chicken Curry",
+          "description": "Chicken cooked in a pan with cream and curry sauce",
+          "image": "../img/menu/curryChickhen.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Karnıyarık",
+          "nameEN": "Karnıyarık (Riven Belly)",
+          "description": "Split aubergines stuffed with minced meat and cooked in the oven in a clay dish served with rice as a side dish",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Tavuk Şinitzel",
+          "nameEN": "Chicken Schnitzel",
+          "description": "Chicken Schnitzel with chips",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kuzu Tandır",
+          "nameEN": "Lamb Tandour (hole in the earth with wood fire - tandour oven)",
+          "description": "Lamb roasted in tandour oven served in a clay dish and rice as side dish (may include bay leaf and onion to flavour)",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kuzu İncik",
+          "nameEN": "Lamb Shank",
+          "description": "Lamb Shank (lamb contains a big bone) served such as lamb tandour (the item above)",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Köy Usulü Köfte",
+          "nameEN": "Village Style Meatballs",
+          "description": "Homemade meatballs grilled served with fire roasted aubergine, grilled lavash bread, garlic yogurt, butter, rice, roasted tomato, pepper, onion etc spiced with oregano",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "grills",
+      "nameTR": "Izgaralar",
+      "nameEN": "Grills",
+      "items": [
+        {
+          "nameTR": "Izgara Köfte",
+          "nameEN": "Grilled Meatballs",
+          "description": "Homemade meatballs grilled served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kiremitte Kaşarlı Köfte",
+          "nameEN": "Roasted meatballs in a clay dish",
+          "description": "Meatballs in a clay dish cheddar cheese topped and cooked in the oven",
+          "image": "../img/menu/Oven-Baked-Trout.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Acılı Kıyma Kebabı",
+          "nameEN": "Hot Chili Kebab",
+          "description": "Mixture of minced beef and minced lamb (70% beef 30% lamb) and a little tail fat and chili flakes and salt put on wooden skewer and barbecued on charcoal fire, similar to Adana Kebab",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Patlıcan Kebabı",
+          "nameEN": "Aubergine Kebab",
+          "description": "Slice of aubergine and meatballs lined up and barbecued and served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
+          "image": "../img/menu/aubergine-kebab.jpg",
+          "price": null
+        },
+        {
+          "nameTR": "Kuzu Pirzola",
+          "nameEN": "Lamb Chops",
+          "description": "Lamb chops barbecued and served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
+          "image": "../img/menu/lambChops.jpg",
+          "price": null
+        },
+        {
+          "nameTR": "Tavuk Şiş",
+          "nameEN": "Chicken on the Skewers (Chicken Sish)",
+          "description": "Chicken on the skewers (3 skewers of chicken - used marinated chicken breast) barbecued and served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Karışık Izgara",
+          "nameEN": "Mix Grill Plate",
+          "description": "1 Lamb chops, 2 meatballs, 1 skewer of chicken and one small steak served with rice, fire roasted pepper, onion, tomato",
+          "image": "../img/menu/mixGrill.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Tavuk Pirzola",
+          "nameEN": "Chicken Chops",
+          "description": "Chicken Chops served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "kids-menu",
+      "nameTR": "Çocuk Menüsü",
+      "nameEN": "Kids Menu",
+      "items": [
+        {
+          "nameTR": "Mitite Köfte",
+          "nameEN": "Small Meatballs",
+          "description": "Meatballs put on wooden sticks (2 sticks of meatballs) and grilled served with chips on the side",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Parmak Tavuk",
+          "nameEN": "Chicken Fingers",
+          "description": "Chicken fingers with chips",
+          "image": null,
+          "price": null,
+          "note": "Not Today"
+        },
+        {
+          "nameTR": "Parmak Balık",
+          "nameEN": "Fish Fingers",
+          "description": "Fish Fingers and Chips",
+          "image": "../img/menu/fish-fingers.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Sosis ve Chips",
+          "nameEN": "Sausage and Chips",
+          "description": "Sausage served with chips",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Tavuk Şiş",
+          "nameEN": "Chicken on the skewers and chips",
+          "description": "2 sticks of chicken served with chips on the side",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Ton Balıklı Sandeviç",
+          "nameEN": "Tuna Fish Sandwich and Chips",
+          "description": "Tuna fish sandwich served with chips",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "nameTR": "Tatlılar",
+      "nameEN": "Desserts",
+      "items": [
+        {
+          "nameTR": "Muzlu Krep",
+          "nameEN": "Banana Crepe",
+          "description": "Crepe with banana filling",
+          "image": "../img/menu/crepe-with-banana.jpeg",
+          "price": null
+        },
+        {
+          "nameTR": "Ballı ve Cevizli Krep",
+          "nameEN": "Honey and Walnut Crepe",
+          "description": "Crepe with honey and walnut filling",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Limonlu ve Şekerli Krep",
+          "nameEN": "Lemon and Sugar Crepe",
+          "description": "Crepe with lemon and sugar",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Çikolatalı Krep",
+          "nameEN": "Chocolate Crepe",
+          "description": "Crepe with chocolate filling",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kızarmış Muz",
+          "nameEN": "Fried Banana",
+          "description": "Fried in butter and served with honey and ice-cream",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Baklava",
+          "nameEN": "Baklava",
+          "description": "Traditional Turkish baklava",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Fırında Helva",
+          "nameEN": "Baked Halva (Helva)",
+          "description": "Tahini (which is made of sesame seeds) Halva put in little clay bowl, some milk added, cooked in the oven, topped with walnut and ice-cream respectively and served",
+          "image": "../img/menu/bakedHalva.jpeg",
+          "price": null,
+          "note": "Eating Tahini Halva after eating fish as a main course is a tradition in Turkey; in this village is it served in this special style"
+        },
+        {
+          "nameTR": "Ballı Yogurt",
+          "nameEN": "Yogurt with Honey",
+          "description": "Traditional yogurt served with honey",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Elma Marmelatlı Krep",
+          "nameEN": "Crepe with Apple Marmalade",
+          "description": "Crepe with apple marmalade filling",
+          "image": null,
+          "price": null,
+          "note": "Not Today"
+        }
+      ]
+    },
+    {
+      "id": "nonalcoholic-drinks",
+      "nameTR": "Alkolsüz İçecekler",
+      "nameEN": "Nonalcoholic Drinks",
+      "items": [
+        {
+          "nameTR": "Su",
+          "nameEN": "Water",
+          "description": "Still water",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kola/Fanta/Sprite",
+          "nameEN": "Coke/Fanta/Sprite",
+          "description": "Soft drinks",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Meyve Suları",
+          "nameEN": "Fruit Juices",
+          "description": "Various fruit juices",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Buzlu Kahve",
+          "nameEN": "Iced Coffee",
+          "description": "Iced coffee",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Vişne Sodası",
+          "nameEN": "Cherry Soda",
+          "description": "Cherry flavored soda",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Sıkma Portakal Suyu",
+          "nameEN": "Freshly Squeezed Orange Juice",
+          "description": "Fresh orange juice squeezed to order",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Ev Yapımı Limonata",
+          "nameEN": "Homemade Lemonade",
+          "description": "Freshly made lemonade",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Maden Suyu",
+          "nameEN": "Mineral Water",
+          "description": "Sparkling mineral water",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Ayran",
+          "nameEN": "Ayran",
+          "description": "Yogurt, water and salt",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "nonalcoholic-coctails",
+      "nameTR": "Alkolsüz Kokteyler",
+      "nameEN": "Nonalcoholic Cocktails",
+      "items": [
+        {
+          "nameTR": "Harry Potter",
+          "nameEN": "Harry Potter",
+          "description": "Cherry juice, peach juice and sprite",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Cinderella",
+          "nameEN": "Cinderella",
+          "description": "Orange Juice, Pineapple Juice, Cherry Juice",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Mini Colado",
+          "nameEN": "Mini Colado",
+          "description": "Milk, Pineapple Juice, Coconut",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "alcoholic-drinks",
+      "nameTR": "Alkollü İçecekler",
+      "nameEN": "Alcoholic Drinks",
+      "items": [
+        {
+          "nameTR": "Efes (50 cl)",
+          "nameEN": "Efes (50 cl)",
+          "description": "Turkish beer",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Efes Malt (50 cl)",
+          "nameEN": "Efes Malt (50 cl)",
+          "description": "Turkish malt beer",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Efes Light (50 cl)",
+          "nameEN": "Efes Light (50 cl)",
+          "description": "Turkish light beer",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Bomonti Bira (50 cl)",
+          "nameEN": "Bomonti Beer (50 cl)",
+          "description": "First Turkish Beer (The first beer of this soils since 1860 - established in memory of Swiss Bomonti brothers)",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Miller",
+          "nameEN": "Miller",
+          "description": "Miller beer",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Tuborg Bira (50 cl)",
+          "nameEN": "Tuborg Beer (50 cl)",
+          "description": "Tuborg beer",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Türk Rakısı",
+          "nameEN": "Turkish Raki",
+          "description": "Traditional Turkish anise spirit",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Şişe Türk Rakısı",
+          "nameEN": "Turkish Raki by the bottle",
+          "description": "Full bottle of Turkish raki",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kadeh Şarap",
+          "nameEN": "Glass of Wine",
+          "description": "Wine by the glass",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Votka (8 cl)",
+          "nameEN": "Vodka (8 cl)",
+          "description": "With anything including mixers",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Cin (8 cl)",
+          "nameEN": "Gin (8 cl)",
+          "description": "With anything including mixers",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Brendy (8 cl)",
+          "nameEN": "Brandy (8 cl)",
+          "description": "Brandy",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "J & B",
+          "nameEN": "J & B",
+          "description": "J & B whisky",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Jack Daniels",
+          "nameEN": "Jack Daniels",
+          "description": "Jack Daniels whisky",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Strongbow Cider",
+          "nameEN": "Strongbow Cider",
+          "description": "Apple cider",
+          "image": null,
+          "price": null
+        }
+      ]
+    },
+    {
+      "id": "wines",
+      "nameTR": "Şaraplar",
+      "nameEN": "Wines",
+      "items": [
+        {
+          "nameTR": "Patara Beyaz Kuru (75 cl)",
+          "nameEN": "Patara White Dry (75 cl)",
+          "description": "Turkish white wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Patara Kırmızı Kuru (75 cl)",
+          "nameEN": "Patara Red Dry (75 cl)",
+          "description": "Turkish red wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Patara Rose (75 cl)",
+          "nameEN": "Patara Rose (75 cl)",
+          "description": "Turkish rosé wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Arykanda Beyaz Kuru (75 cl)",
+          "nameEN": "Arykanda White Dry (75 cl)",
+          "description": "Turkish white wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kızılcabel Kırmızı Kuru (75 cl)",
+          "nameEN": "Kızılcabel Red Dry (75 cl)",
+          "description": "Turkish red wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Dikmen Beyaz Kuru (75 cl)",
+          "nameEN": "Dikmen White Dry (75 cl)",
+          "description": "Turkish white wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Kavak Beyaz Kuru (75 cl)",
+          "nameEN": "Kavak White Dry (75 cl)",
+          "description": "Turkish white wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Angora Beyaz Kuru (75 cl)",
+          "nameEN": "Angora White Dry (75 cl)",
+          "description": "Turkish white wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Çankaya Beyaz Kuru (75 cl)",
+          "nameEN": "Çankaya White Dry (75 cl)",
+          "description": "Turkish white wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Ancyra Beyaz Kuru (75 cl)",
+          "nameEN": "Ancyra White Dry (75 cl)",
+          "description": "Turkish white wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Lal Rose (75 cl)",
+          "nameEN": "Lal Rose (75 cl)",
+          "description": "Turkish rosé wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Sultaniye Beyaz Yarı Tatlı (75 cl)",
+          "nameEN": "Sultaniye White Semi Sweet (75 cl)",
+          "description": "Turkish semi-sweet white wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Dikmen Kırmızı Kuru (75 cl)",
+          "nameEN": "Dikmen Red Dry (75 cl)",
+          "description": "Turkish red wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Angora Kırmızı Kuru (75 cl)",
+          "nameEN": "Angora Red Dry (75 cl)",
+          "description": "Turkish red wine",
+          "image": null,
+          "price": null
+        },
+        {
+          "nameTR": "Yakut Kırmızı Kuru (75 cl)",
+          "nameEN": "Yakut Red Dry (75 cl)",
+          "description": "Turkish red wine",
+          "image": null,
+          "price": null
+        }
+      ]
+    }
+  ]
+}
