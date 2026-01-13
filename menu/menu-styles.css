@@ -131,3 +131,56 @@ img {
   height: auto;
   display: block;
 }
+
+/* Tags styling */
+.item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.item-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.item-tag i {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.item-tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(124, 154, 107, 0.15);
+}
+
+/* Tag color themes */
+.item-tags .tag-halal i {
+  color: var(--primary-color);
+}
+
+.item-tags .tag-vegetarian i {
+  color: #6ab04c;
+}
+
+.item-tags .tag-vegan i {
+  color: #27ae60;
+}
+
+.item-tags .tag-spicy i {
+  color: var(--accent-color);
+}
+
+.item-tags .tag-generic i {
+  color: var(--text-secondary);
+}

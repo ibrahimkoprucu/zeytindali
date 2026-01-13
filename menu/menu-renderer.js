@@ -182,6 +182,14 @@
         $cardBody.append(`<p class="card-text"><em class="note">${item.note}</em></p>`);
       }
 
+      // Add tags as icons if available
+      if (item.tags) {
+        const $tags = MenuRenderer.renderTags(item.tags);
+        if ($tags) {
+          $cardBody.append($tags);
+        }
+      }
+
       // Add price if available (push to bottom with mt-auto)
       if (item.price !== null && item.price !== undefined) {
         const currency = item.currency || "₺";
@@ -190,6 +198,66 @@
 
       $card.append($cardBody);
       return $card;
+    },
+
+    /**
+     * Render tags into a container of icons with accessible labels
+     * @param {string|Array} tags
+     * @returns {jQuery|null}
+     */
+    renderTags: function (tags) {
+      let list = [];
+      if (Array.isArray(tags)) {
+        list = tags;
+      } else if (typeof tags === "string") {
+        list = tags
+          .split(",")
+          .map(function (t) {
+            return t.trim();
+          })
+          .filter(Boolean);
+      }
+      if (!list.length) return null;
+
+      const $wrap = $('<div class="item-tags" role="list" aria-label="Dish tags"></div>');
+      list.forEach(function (raw) {
+        const norm = raw.trim().toLowerCase();
+        const iconInfo = MenuRenderer.getTagIconInfo(norm);
+        const label = iconInfo.label || raw;
+        const iconClass = iconInfo.icon;
+        const extraClass = iconInfo.className ? " " + iconInfo.className : "";
+
+        const $tag = $(
+          `<span class="item-tag${extraClass}" role="listitem" aria-label="${label}" title="${label}">
+          <i class="${iconClass}" aria-hidden="true"></i><span class="sr-only">${label}</span></span>`
+        );
+
+        $wrap.append($tag);
+      });
+      return $wrap;
+    },
+
+    /**
+     * Map normalized tag text to icon and class
+     * @param {string} tag
+     * @returns {{icon:string,label:string,className?:string}}
+     */
+    getTagIconInfo: function (tag) {
+      switch (tag) {
+        case "halal":
+          return { icon: "icon-ok-circle", label: "Halal", className: "tag-halal" };
+        case "vegetarian":
+          return { icon: "icon-leaf", label: "Vegetarian", className: "tag-vegetarian" };
+        case "vegan":
+          return { icon: "icon-leaf", label: "Vegan", className: "tag-vegan" };
+        case "very hot":
+        case "hot":
+        case "spicy":
+          return { icon: "icon-fire", label: "Spicy", className: "tag-spicy" };
+        default:
+          // Fallback to generic tag icon with capitalized label
+          return { icon: "icon-tag", label: tag.charAt(0).toUpperCase() + tag.slice(1), className: "tag-generic" };
+      }
     },
 
     /**

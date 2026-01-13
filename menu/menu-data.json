@@ -19,63 +19,72 @@
           "description": "Tomato, cucumber, rocket, parsley; cheddar cheese, feta cheese, plaited cheese; fig jam, cherry jam, apricot jam, blackberry jam, tahini, grape molasses; honey, butter, olives, olive oil; toasted bread, flat bread, hot pita bread; Hot items: Fried goat cheese, fried egg, homemade chips; Unlimited Turkish tea and coffee",
           "image": "../img/menu/breakfast.jpeg",
           "price": null,
-          "note": "You may add more food ordering items below"
+          "note": "You may add more food ordering items below",
+          "tags": "Halal"
         },
         {
           "nameTR": "Ev Yapımı Patates Kızartması",
           "nameEN": "Homemade Chips",
           "description": "Best potatoes found peeled and deep fried in fresh oil",
           "image": "../img/menu/chips.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegan"
         },
         {
           "nameTR": "Sucuk Kızartma",
           "nameEN": "Fried Garlic Sausage (Turkish Sausage)",
           "description": "Traditional Turkish sausage fried to perfection",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Menemen",
           "nameEN": "Menemen",
           "description": "Scrambled egg with tomato and green pepper, cooked and served in the pan",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Sigara Böreği",
           "nameEN": "Cheese Rolls",
           "description": "Flat bread rolled with mixture of cheese and parsley and fried",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Hakiki Köy Kaymağı",
           "nameEN": "Real Village Milk Cream",
           "description": "Authentic village-style cream from fresh milk",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Sıkma Portakal Suyu",
           "nameEN": "Freshly Squeezed Orange Juice",
           "description": "Fresh oranges squeezed to order",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Kıymalı Yumurta",
           "nameEN": "Egg In Minced Meat",
           "description": "Minced meat cooked in pan with butter, cracked eggs inside and cooked a bit more",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Kavurmalı Yumurta",
           "nameEN": "Egg In Meat Cubes (Lamb)",
           "description": "Cooking method same as Egg In Minced Meat",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         }
       ]
     },
@@ -89,35 +98,40 @@
           "nameEN": "Plain Omelette",
           "description": "Garnished with tomato, cucumber and parsley",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Mantarlı Omlet",
           "nameEN": "Mushroom Omelette",
           "description": "Garnished with tomato, cucumber and parsley",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Kaşar Peynirli Omlet",
           "nameEN": "Cheddar Cheese Omelette",
           "description": "Garnished with tomato, cucumber and parsley",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Karışık Omlet",
           "nameEN": "Mixed Omelette",
           "description": "Garnished with tomato, cucumber and parsley",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Menemen",
           "nameEN": "Menemen",
           "description": "Scrambled egg with tomato and green pepper, cooked and served in the pan",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         }
       ]
     },
@@ -131,63 +145,72 @@
           "nameEN": "Hot Spicy Tomato Dip",
           "description": "Red and green capia pepper, tomato, garlic, chili flakes, olive oil, mint, seasoning, red pepper paste",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Very Hot, Halal, Vegan"
         },
         {
           "nameTR": "Mücver",
           "nameEN": "Courgette Fritters",
           "description": "Courgette, parsley, spring onion, dill, feta cheese, flour, sunflower oil, beaten egg, black pepper; served oven baked with cheddar cheese on top",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Humus",
           "nameEN": "Hoummous (Chickpea Puree)",
           "description": "Chickpea, garlic, green chilies, olive oil, fresh lemon juice, a little tahini",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegan"
         },
         {
           "nameTR": "Patlıcan Söğürme",
           "nameEN": "Aubergine Puree with Yogurt",
           "description": "Fire roasted aubergines with mayonnaise, yogurt and garlic",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Yaprak Sarma",
           "nameEN": "Stuffed Vine Leaves",
           "description": "Vine leaves stuffed with rice",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Haydari",
           "nameEN": "Haydari",
           "description": "Garlic and mint in strained yogurt (thick yogurt)",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Cacık",
           "nameEN": "Cacık",
           "description": "Chopped cucumber, garlic and mint in strained yogurt (thick yogurt)",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Havuç Tarator",
           "nameEN": "Carrot in Tarator Sauce",
           "description": "Grated carrot, olive oil, walnut, strained yogurt, mayonnaise, garlic, and dill",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Karışık Meze Tabağı",
           "nameEN": "Mixed Meze Plate",
           "description": "A selection of all cold starters in this section and 2 hot starters in a platter (choice of hot starters depends on chef)",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         }
       ]
     },
@@ -201,21 +224,24 @@
           "nameEN": "Garlic Shrimps",
           "description": "Shrimps in butter, garlic, chili flakes",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Kalamar Tava",
           "nameEN": "Fried Calamari",
           "description": "Marinated squid rings fried and served with special dip",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Alabalık Köfte",
           "nameEN": "Trout Fish Cakes",
           "description": "Boneless trout kneaded with herbs and spices, shaped like meatball, fried and served",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Sarımsaklı Mantar",
@@ -223,7 +249,8 @@
           "description": "Chopped mushrooms cooked in pan with butter and garlic (ask for cheddar cheese on top)",
           "image": "../img/menu/garlicMushrooms.jpeg",
           "price": 0,
-          "currency": "₺"
+          "currency": "₺",
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Patlıcan Biber Kızartma",
@@ -231,21 +258,24 @@
           "description": "Served with garlic yogurt and tomato sauce on request",
           "image": "../img/menu/friedAubergine.jpeg",
           "price": 0,
-          "currency": "₺"
+          "currency": "₺",
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Sigara Böreği",
           "nameEN": "Cheese Rolls",
           "description": "Flat bread rolled with mixture of cheese and parsley and fried",
           "image": "../img/menu/cheeseRolls.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Kızarmış Keçi Peyniri",
           "nameEN": "Fried Goat's Cheese",
           "description": "Village goat's cheese fried in butter, spiced with chili flakes and oregano, served in pan",
           "image": "../img/menu/Fried-Cheese.jpg",
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         }
       ]
     },
@@ -259,49 +289,56 @@
           "nameEN": "Shepherd Salad",
           "description": "Salad with tomatoes, cucumber, pepper, parsley and onion",
           "image": "../img/menu/shepherdSalad.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegan"
         },
         {
           "nameTR": "Yeşil Salata",
           "nameEN": "Green Salad",
           "description": "Lettuce, rocket, parsley",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegan"
         },
         {
           "nameTR": "Beyaz Peynirli Salata",
           "nameEN": "Feta Cheese Salad",
           "description": "Salad with feta cheese, cherry tomatoes, onions, lettuce, parsley, fresh lemon juice",
           "image": "../img/menu/whiteCheeseSalad.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Ton Balıklı Salata",
           "nameEN": "Tuna Fish Salad",
           "description": "Salad with parsley, lettuce, mint and tuna fish",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Roka Salatası",
           "nameEN": "Rocket Salad",
           "description": "Finely chopped rocket and tomato",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegan"
         },
         {
           "nameTR": "Cevizli ve Kuru Üzümlü Salata",
           "nameEN": "Walnut and Raisins Salad",
           "description": "Salad with lettuce, parsley, walnut and raisins",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegan"
         },
         {
           "nameTR": "Avacadolu Salata",
           "nameEN": "Avocado Salad",
           "description": "Salad with avocado",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegan"
         }
       ]
     },
@@ -315,42 +352,48 @@
           "nameEN": "Homemade Chips",
           "description": "Best potatoes found peeled and deep fried in fresh oil",
           "image": "../img/menu/chips.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegan"
         },
         {
           "nameTR": "Duble Ev Yapımı Patates Kızartması",
           "nameEN": "Double Homemade Chips",
           "description": "Double amount of Homemade Chips served in a big platter",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegan"
         },
         {
           "nameTR": "Hamburger",
           "nameEN": "Hamburger",
           "description": "Contains homemade hamburger patty and tomato, lettuce, pickled cucumber inside",
           "image": "../img/menu/hamburger.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "CheeseBurger",
           "nameEN": "CheeseBurger",
           "description": "Same Burger with cheddar cheese",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Tavuk Dürüm",
           "nameEN": "Chicken Wrap",
           "description": "Chicken breast, sliced tomato, finely chopped lettuce, chopped onion, flat bread",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Balık ve Chips",
           "nameEN": "Fish and Chips",
           "description": "Battered haddock fish served with homemade chips",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         }
       ]
     },
@@ -364,21 +407,24 @@
           "nameEN": "Penne Alfredo",
           "description": "With sauce including butter, chicken breast, mushrooms, garlic, onion, cream, basil, and cheddar cheese on the top",
           "image": "../img/menu/penneAlfredo.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Penne Napolitano",
           "nameEN": "Penne Napolitano",
           "description": "",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Penne Bolognaise",
           "nameEN": "Penne Bolognaise",
           "description": "",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Mantı",
@@ -386,7 +432,8 @@
           "description": "Turkish pasta bundles filled with minced meat boiled and served with garlic yogurt and sauce including chili flake and butter on the top (chili flakes sautéed in butter in a pan)",
           "image": "../img/menu/mantı.jpeg",
           "price": null,
-          "note": "Known as Turkish Ravioli (Similar but smaller)"
+          "note": "Known as Turkish Ravioli (Similar but smaller)",
+          "tags": "Halal"
         }
       ]
     },
@@ -400,14 +447,16 @@
           "nameEN": "Fillet Trout Breaded",
           "description": "Fillet battered trout (with egg and flour) and fried and served with salad garnish on the side (sliced tomato, cucumber, onion, rocket, fried whole green pepper)",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Fırında Sebzeli Balık",
           "nameEN": "Oven Baked Trout",
           "description": "Whole trout (with bones ask for fillet) in clay dish with tomato, pepper, potato, garlic and butter cooked in the oven",
           "image": "../img/menu/bakedTrout.PNG",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Kiremitte Kaşarlı Balık",
@@ -415,63 +464,72 @@
           "description": "Fillet trout (no bones, keep tail and head ask for tailless and headless) in a clay dish cooked in the oven",
           "image": null,
           "price": null,
-          "note": "Ask for without cheddar cheese"
+          "note": "Ask for without cheddar cheese",
+          "tags": "Halal"
         },
         {
           "nameTR": "Alabalık Tava",
           "nameEN": "Fried Trout",
           "description": "Trout fried in olive oil and butter served with salad garnish and fried pepper on the side (ask for fillet before cooked or afterwards). 200-250 gr for one person",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Izgara Alabalık",
           "nameEN": "Grilled Trout",
           "description": "Trout grilled (barbecued over coal fire) served with salad garnish and fried pepper on the side (ask for fillet before cooked or afterwards). 200-250 gr for one person",
           "image": "../img/menu/grilledTrout.jpg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Izgara Levrek",
           "nameEN": "Grilled Sea Bass",
           "description": "Sea Bass grilled (barbecued over coal fire) served with salad garnish and fried pepper on the side (350-400 gr for one person - bigger than trout)",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Izgara Çupra",
           "nameEN": "Grilled Sea Bream",
           "description": "Sea Bream grilled (barbecued over coal fire) served with salad garnish and fried pepper on the side (350-400 gr for one person - bigger than trout)",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Fileto Dil Balığı",
           "nameEN": "Fillet Flounder Fish",
           "description": "Surprise",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Balık Şiş",
           "nameEN": "Fish on Skewers",
           "description": "Fillet sword fish or leer fish or haddock skewered and grilled (barbecued over coal fire) served with salad garnish and fried pepper on the side",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Günün Balığı",
           "nameEN": "Fish of The Day",
           "description": "Please click on fish of the day menu item",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Karışık Deniz Ürünleri Güveç",
           "nameEN": "Mixed Seafood Casserole",
           "description": "In a clay dish calamari, shrimps, haddock fish and mussels and some seasoning and herbs cooked in the oven and cheddar cheese on the top (served with no side dish)",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         }
       ]
     },
@@ -485,35 +543,40 @@
           "nameEN": "Wild Sea Bass",
           "description": "Big Wild Sea Bass grilled and served with hot potatoes, and roasted vegetables. About 900-1000 gr ordered for 1-2 people",
           "image": "../img/menu/wildSeaBass.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Deniz Çuprası",
           "nameEN": "Wild Sea Bream",
           "description": "Big Wild Sea Bream grilled and served with hot potatoes, and roasted vegetables. About 900-1000 gr ordered for 1-2 people",
           "image": "../img/menu/wildSeaBream.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Fileto Kılıç Balığı",
           "nameEN": "Fillet Sword Fish",
           "description": "Grilled and served with sliced salad garnish and a bit of chips",
           "image": "../img/menu/FishOfTheDay/FilletSword.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Lagos",
           "nameEN": "Grouper",
           "description": "Fillet battered Grouper Fish fried in pan",
           "image": "../img/menu/FishOfTheDay/Grouper.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Mercan",
           "nameEN": "Red Sea Bream",
           "description": "Red Sea Breams on the picture fried and served (3-4 fishes in a portion)",
           "image": "../img/menu/redSeaBream.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         }
       ]
     },
@@ -527,7 +590,8 @@
           "nameEN": "Local Casserole with Vegetable and Meat (beef and lamb)",
           "description": "Cooked in the oven with mushrooms, pepper, tomato, onion, garlic, aubergine etc served in clay dish",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Patlıcan Musakka",
@@ -535,77 +599,88 @@
           "description": "Traditional Turkish moussaka",
           "image": "../img/menu/Mousakka.jpeg",
           "price": null,
-          "note": "Not Today"
+          "note": "Not Always Available",
+          "tags": "Halal"
         },
         {
           "nameTR": "Kuzu Kavurma",
           "nameEN": "Roasting Lamb",
           "description": "Finely chopped lamb cooked in the pan with onion, pepper, tomato, oregano, chili flakes served in iron plate with fire underneath and served rice as a side dish",
           "image": "../img/menu/sizzlinglamb.PNG",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Tavuk Kavurma",
           "nameEN": "Roasting Chicken",
           "description": "Finely chopped chicken cooked in the pan with onion, pepper, tomato, oregano, chili flakes served in iron plate with fire underneath and served rice as a side dish",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Özel Çardak Kebabı",
           "nameEN": "Special Çardak Kebab",
           "description": "Cubed lamb cooked in stew pan with onion, garlic, tomato, green pepper, mushrooms, some water; spread bechamel sauce on a crepe after that the mixture wrapped in this crepe added cheddar cheese on the top cooked in the oven in a clay dish",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Ciğer Kavurma",
           "nameEN": "Roasting Liver",
           "description": "Finely chopped liver (lamb liver) in the pan with onion, pepper, tomato, oregano, chili flakes served in iron plate with fire underneath and served rice as a side dish",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Körili Tavuk",
           "nameEN": "Chicken Curry",
           "description": "Chicken cooked in a pan with cream and curry sauce",
           "image": "../img/menu/curryChickhen.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Karnıyarık",
           "nameEN": "Karnıyarık (Riven Belly)",
           "description": "Split aubergines stuffed with minced meat and cooked in the oven in a clay dish served with rice as a side dish",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Tavuk Şinitzel",
           "nameEN": "Chicken Schnitzel",
           "description": "Chicken Schnitzel with chips",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Kuzu Tandır",
           "nameEN": "Lamb Tandour (hole in the earth with wood fire - tandour oven)",
           "description": "Lamb roasted in tandour oven served in a clay dish and rice as side dish (may include bay leaf and onion to flavour)",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Kuzu İncik",
           "nameEN": "Lamb Shank",
           "description": "Lamb Shank (lamb contains a big bone) served such as lamb tandour (the item above)",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Köy Usulü Köfte",
           "nameEN": "Village Style Meatballs",
           "description": "Homemade meatballs grilled served with fire roasted aubergine, grilled lavash bread, garlic yogurt, butter, rice, roasted tomato, pepper, onion etc spiced with oregano",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         }
       ]
     },
@@ -619,56 +694,64 @@
           "nameEN": "Grilled Meatballs",
           "description": "Homemade meatballs grilled served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Kiremitte Kaşarlı Köfte",
           "nameEN": "Roasted meatballs in a clay dish",
           "description": "Meatballs in a clay dish cheddar cheese topped and cooked in the oven",
           "image": "../img/menu/Oven-Baked-Trout.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Acılı Kıyma Kebabı",
           "nameEN": "Hot Chili Kebab",
           "description": "Mixture of minced beef and minced lamb (70% beef 30% lamb) and a little tail fat and chili flakes and salt put on wooden skewer and barbecued on charcoal fire, similar to Adana Kebab",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Patlıcan Kebabı",
           "nameEN": "Aubergine Kebab",
           "description": "Slice of aubergine and meatballs lined up and barbecued and served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
           "image": "../img/menu/aubergine-kebab.jpg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Kuzu Pirzola",
           "nameEN": "Lamb Chops",
           "description": "Lamb chops barbecued and served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
           "image": "../img/menu/lambChops.jpg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Tavuk Şiş",
           "nameEN": "Chicken on the Skewers (Chicken Sish)",
           "description": "Chicken on the skewers (3 skewers of chicken - used marinated chicken breast) barbecued and served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Karışık Izgara",
           "nameEN": "Mix Grill Plate",
           "description": "1 Lamb chops, 2 meatballs, 1 skewer of chicken and one small steak served with rice, fire roasted pepper, onion, tomato",
           "image": "../img/menu/mixGrill.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Tavuk Pirzola",
           "nameEN": "Chicken Chops",
           "description": "Chicken Chops served with rice, some roasted tomato, pepper, onion etc spiced with oregano",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         }
       ]
     },
@@ -682,7 +765,8 @@
           "nameEN": "Small Meatballs",
           "description": "Meatballs put on wooden sticks (2 sticks of meatballs) and grilled served with chips on the side",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Parmak Tavuk",
@@ -690,35 +774,40 @@
           "description": "Chicken fingers with chips",
           "image": null,
           "price": null,
-          "note": "Not Today"
+          "note": "Not Always Available",
+          "tags": "Halal"
         },
         {
           "nameTR": "Parmak Balık",
           "nameEN": "Fish Fingers",
           "description": "Fish Fingers and Chips",
           "image": "../img/menu/fish-fingers.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Sosis ve Chips",
           "nameEN": "Sausage and Chips",
           "description": "Sausage served with chips",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Tavuk Şiş",
           "nameEN": "Chicken on the skewers and chips",
           "description": "2 sticks of chicken served with chips on the side",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         },
         {
           "nameTR": "Ton Balıklı Sandeviç",
           "nameEN": "Tuna Fish Sandwich and Chips",
           "description": "Tuna fish sandwich served with chips",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal"
         }
       ]
     },
@@ -732,42 +821,48 @@
           "nameEN": "Banana Crepe",
           "description": "Crepe with banana filling",
           "image": "../img/menu/crepe-with-banana.jpeg",
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Ballı ve Cevizli Krep",
           "nameEN": "Honey and Walnut Crepe",
           "description": "Crepe with honey and walnut filling",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Limonlu ve Şekerli Krep",
           "nameEN": "Lemon and Sugar Crepe",
           "description": "Crepe with lemon and sugar",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Çikolatalı Krep",
           "nameEN": "Chocolate Crepe",
           "description": "Crepe with chocolate filling",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Kızarmış Muz",
           "nameEN": "Fried Banana",
           "description": "Fried in butter and served with honey and ice-cream",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Baklava",
           "nameEN": "Baklava",
           "description": "Traditional Turkish baklava",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Fırında Helva",
@@ -775,6 +870,7 @@
           "description": "Tahini (which is made of sesame seeds) Halva put in little clay bowl, some milk added, cooked in the oven, topped with walnut and ice-cream respectively and served",
           "image": "../img/menu/bakedHalva.jpeg",
           "price": null,
+          "tags": "Halal, Vegetarian",
           "note": "Eating Tahini Halva after eating fish as a main course is a tradition in Turkey; in this village is it served in this special style"
         },
         {
@@ -782,7 +878,8 @@
           "nameEN": "Yogurt with Honey",
           "description": "Traditional yogurt served with honey",
           "image": null,
-          "price": null
+          "price": null,
+          "tags": "Halal, Vegetarian"
         },
         {
           "nameTR": "Elma Marmelatlı Krep",
@@ -790,7 +887,8 @@
           "description": "Crepe with apple marmalade filling",
           "image": null,
           "price": null,
-          "note": "Not Today"
+          "tags": "Halal, Vegetarian",
+          "note": "Not Always Available"
         }
       ]
     },
